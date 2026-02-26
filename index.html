@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aktien Report — 26.02.2026 09:37 Uhr</title>
+  <title>Aktien Report — 26.02.2026 09:47 Uhr</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Tab Navigation ── */
@@ -66,7 +66,7 @@
     }
     .vix-box {
       display: inline-block;
-      background: #27ae60;
+      background: #f39c12;
       color: #ffffff;
       padding: 12px 28px;
       border-radius: 10px;
@@ -512,10 +512,10 @@
 <body>
   <header>
     <h1>Aktien Report</h1>
-    <div class="timestamp">Erstellt am 26.02.2026 09:37 Uhr</div>
+    <div class="timestamp">Erstellt am 26.02.2026 09:47 Uhr</div>
     <div class="indicator-row">
       <div class="vix-box">
-        VIX: NIEDRIG (17.92) — Markt ruhig
+        VIX: MITTEL (18.05) — Erhöhte Volatilität
         <div class="vix-label">Kein erhöhtes Risikosignal</div>
       </div>
       
@@ -528,7 +528,7 @@
         <div style="font-size:0.7rem;opacity:0.75;margin-top:1px;">⚖️ Ausgewogen bleiben</div>
       </div>
     </div>
-    <div style="margin-top:12px;font-size:0.82rem;color:#aaa;display:flex;gap:24px;justify-content:center;flex-wrap:wrap;"><span>🥇 Gold: <strong>5,199.70 $</strong> / 4,402.59 €</span> · <span>🇺🇸 USD/EUR: <strong>0.8467</strong></span> · <span>🇨🇭 CHF/EUR: <strong>1.0951</strong></span></div>
+    <div style="margin-top:12px;font-size:0.82rem;color:#aaa;display:flex;gap:24px;justify-content:center;flex-wrap:wrap;"><span>🥇 Gold: <strong>5,190.70 $</strong> / 4,394.97 €</span> · <span>🇺🇸 USD/EUR: <strong>0.8467</strong></span> · <span>🇨🇭 CHF/EUR: <strong>1.0953</strong></span></div>
   </header>
 
   <!-- Tab Navigation -->
@@ -593,16 +593,16 @@
         <div class="index-card">
           <div class="index-card-header">
             <span class="index-card-name">DAX</span>
-            <span class="index-card-pct" style="color:#27ae60;">▲ +0.49%</span>
+            <span class="index-card-pct" style="color:#27ae60;">▲ +0.34%</span>
           </div>
-          <div class="index-card-value">25,165.81</div>
+          <div class="index-card-value">25,127.85</div>
           <div class="index-card-chart">
             <canvas id="idx_GDAXI"></canvas>
           </div>
           <script>
             (function() {
               var ctx = document.getElementById('idx_GDAXI').getContext('2d');
-              var data = [24152.87, 24046.21, 24039.92, 23902.21, 24037.33, 23487.33, 23594.8, 23770.33, 23596.98, 23807.13, 23718.45, 23632.95, 23703.65, 23698.15, 23748.86, 23329.24, 23359.18, 23674.53, 23639.41, 23527.05, 23611.33, 23666.81, 23534.83, 23739.47, 23745.06, 23880.72, 24113.62, 24422.56, 24378.8, 24378.29, 24385.78, 24597.13, 24611.25, 24241.46, 24387.93, 24236.94, 24181.37, 24272.19, 23830.99, 24258.8, 24330.03, 24151.13, 24207.79, 24239.89, 24308.78, 24278.63, 24124.21, 24118.89, 23958.3, 24132.41, 23949.11, 24049.74, 23734.02, 23569.96, 23959.99, 24088.06, 24381.46, 24041.62, 23876.55, 23590.52, 23180.53, 23162.92, 23278.85, 23091.87, 23239.18, 23464.63, 23726.22, 23767.96, 23836.79, 23589.44, 23710.86, 23693.71, 23882.03, 24028.14, 24046.01, 24162.65, 24130.14, 24294.61, 24186.49, 24229.91, 24076.87, 23960.59, 24199.5, 24288.4, 24283.97, 24340.06, 24351.12, 24490.41, 24539.34, 24868.69, 24892.2, 25122.26, 25127.46, 25261.64, 25405.34, 25420.66, 25286.24, 25352.39, 25297.13, 24959.06, 24703.12, 24560.98, 24856.47, 24900.71, 24933.08, 24894.44, 24822.79, 24309.46, 24538.81, 24797.52, 24780.79, 24603.04, 24491.06, 24721.46, 25014.87, 24987.85, 24856.15, 24852.69, 24914.88, 24800.91, 24998.4, 25278.21, 25043.57, 25260.69, 24991.97, 24986.25, 25175.94, 25165.81];
+              var data = [24152.87, 24046.21, 24039.92, 23902.21, 24037.33, 23487.33, 23594.8, 23770.33, 23596.98, 23807.13, 23718.45, 23632.95, 23703.65, 23698.15, 23748.86, 23329.24, 23359.18, 23674.53, 23639.41, 23527.05, 23611.33, 23666.81, 23534.83, 23739.47, 23745.06, 23880.72, 24113.62, 24422.56, 24378.8, 24378.29, 24385.78, 24597.13, 24611.25, 24241.46, 24387.93, 24236.94, 24181.37, 24272.19, 23830.99, 24258.8, 24330.03, 24151.13, 24207.79, 24239.89, 24308.78, 24278.63, 24124.21, 24118.89, 23958.3, 24132.41, 23949.11, 24049.74, 23734.02, 23569.96, 23959.99, 24088.06, 24381.46, 24041.62, 23876.55, 23590.52, 23180.53, 23162.92, 23278.85, 23091.87, 23239.18, 23464.63, 23726.22, 23767.96, 23836.79, 23589.44, 23710.86, 23693.71, 23882.03, 24028.14, 24046.01, 24162.65, 24130.14, 24294.61, 24186.49, 24229.91, 24076.87, 23960.59, 24199.5, 24288.4, 24283.97, 24340.06, 24351.12, 24490.41, 24539.34, 24868.69, 24892.2, 25122.26, 25127.46, 25261.64, 25405.34, 25420.66, 25286.24, 25352.39, 25297.13, 24959.06, 24703.12, 24560.98, 24856.47, 24900.71, 24933.08, 24894.44, 24822.79, 24309.46, 24538.81, 24797.52, 24780.79, 24603.04, 24491.06, 24721.46, 25014.87, 24987.85, 24856.15, 24852.69, 24914.88, 24800.91, 24998.4, 25278.21, 25043.57, 25260.69, 24991.97, 24986.25, 25175.94, 25127.85];
               new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -635,16 +635,16 @@
         <div class="index-card">
           <div class="index-card-header">
             <span class="index-card-name">MDAX</span>
-            <span class="index-card-pct" style="color:#e74c3c;">▼ -0.39%</span>
+            <span class="index-card-pct" style="color:#e74c3c;">▼ -0.69%</span>
           </div>
-          <div class="index-card-value">31,354.82</div>
+          <div class="index-card-value">31,261.75</div>
           <div class="index-card-chart">
             <canvas id="idx_MDAXI"></canvas>
           </div>
           <script>
             (function() {
               var ctx = document.getElementById('idx_MDAXI').getContext('2d');
-              var data = [30822.93, 30482.93, 30358.46, 30286.9, 30446.03, 29604.64, 29731.32, 29792.44, 30011.98, 30454.69, 30326.53, 30148.88, 30146.41, 30175.16, 30469.96, 30100.16, 30217.38, 30470.71, 30195.88, 30153.71, 30265.43, 30309.84, 30034.59, 29986.85, 30117.57, 30267.49, 30459.59, 30733.46, 30936.49, 30878.03, 30836.16, 30848.82, 30921.06, 30250.03, 30447.59, 30074.66, 29786.81, 30036.68, 29512.77, 30209.22, 30140.61, 30007.74, 30010.29, 30291.98, 30140.88, 30236.96, 29940.39, 29884.31, 29751.62, 29835.06, 29427.53, 29374.55, 28959.63, 28793.94, 29141.2, 29204.45, 29573.63, 29610.57, 29412.36, 29086.93, 28493.43, 28656.56, 28443.45, 28263.82, 28618.54, 29015.89, 29220.0, 29531.25, 29937.15, 29475.82, 29523.67, 29326.19, 29597.02, 29696.45, 29665.08, 29729.05, 29732.65, 29920.08, 29959.19, 30214.61, 30047.03, 29866.36, 30281.18, 30361.46, 30437.29, 30302.78, 30452.53, 30617.67, 30979.74, 31454.32, 31670.42, 32064.64, 32083.03, 32167.17, 32320.5, 32237.31, 31774.24, 31943.6, 31899.26, 31385.57, 30803.23, 30945.3, 31687.04, 31746.12, 31826.25, 31727.85, 31640.37, 31233.68, 31164.44, 31512.09, 31537.33, 31524.63, 31434.51, 31662.83, 31965.87, 31962.21, 31618.89, 31113.7, 31299.04, 31364.56, 31444.33, 31742.22, 31479.01, 31823.39, 31379.41, 31409.5, 31431.62, 31354.82];
+              var data = [30822.93, 30482.93, 30358.46, 30286.9, 30446.03, 29604.64, 29731.32, 29792.44, 30011.98, 30454.69, 30326.53, 30148.88, 30146.41, 30175.16, 30469.96, 30100.16, 30217.38, 30470.71, 30195.88, 30153.71, 30265.43, 30309.84, 30034.59, 29986.85, 30117.57, 30267.49, 30459.59, 30733.46, 30936.49, 30878.03, 30836.16, 30848.82, 30921.06, 30250.03, 30447.59, 30074.66, 29786.81, 30036.68, 29512.77, 30209.22, 30140.61, 30007.74, 30010.29, 30291.98, 30140.88, 30236.96, 29940.39, 29884.31, 29751.62, 29835.06, 29427.53, 29374.55, 28959.63, 28793.94, 29141.2, 29204.45, 29573.63, 29610.57, 29412.36, 29086.93, 28493.43, 28656.56, 28443.45, 28263.82, 28618.54, 29015.89, 29220.0, 29531.25, 29937.15, 29475.82, 29523.67, 29326.19, 29597.02, 29696.45, 29665.08, 29729.05, 29732.65, 29920.08, 29959.19, 30214.61, 30047.03, 29866.36, 30281.18, 30361.46, 30437.29, 30302.78, 30452.53, 30617.67, 30979.74, 31454.32, 31670.42, 32064.64, 32083.03, 32167.17, 32320.5, 32237.31, 31774.24, 31943.6, 31899.26, 31385.57, 30803.23, 30945.3, 31687.04, 31746.12, 31826.25, 31727.85, 31640.37, 31233.68, 31164.44, 31512.09, 31537.33, 31524.63, 31434.51, 31662.83, 31965.87, 31962.21, 31618.89, 31113.7, 31299.04, 31364.56, 31444.33, 31742.22, 31479.01, 31823.39, 31379.41, 31409.5, 31431.62, 31261.75];
               new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -677,16 +677,16 @@
         <div class="index-card">
           <div class="index-card-header">
             <span class="index-card-name">Euro Stoxx 50</span>
-            <span class="index-card-pct" style="color:#27ae60;">▲ +2.08%</span>
+            <span class="index-card-pct" style="color:#27ae60;">▲ +1.97%</span>
           </div>
-          <div class="index-card-value">6,185.45</div>
+          <div class="index-card-value">6,179.11</div>
           <div class="index-card-chart">
             <canvas id="idx_STOXX50E"></canvas>
           </div>
           <script>
             (function() {
               var ctx = document.getElementById('idx_STOXX50E').getContext('2d');
-              var data = [5383.68, 5393.07, 5396.73, 5351.73, 5367.08, 5291.04, 5325.01, 5346.71, 5318.15, 5362.81, 5368.82, 5361.47, 5386.77, 5390.71, 5440.4, 5372.31, 5369.7, 5456.67, 5458.42, 5442.05, 5472.39, 5464.56, 5444.89, 5499.7, 5506.85, 5529.96, 5581.21, 5645.81, 5651.71, 5628.72, 5613.62, 5649.73, 5625.56, 5531.32, 5568.19, 5552.05, 5605.03, 5652.01, 5607.39, 5680.93, 5686.83, 5639.21, 5668.33, 5674.5, 5711.06, 5704.35, 5705.81, 5699.18, 5662.04, 5679.25, 5660.2, 5669.13, 5611.18, 5566.53, 5664.46, 5725.7, 5787.31, 5742.79, 5693.77, 5640.94, 5534.71, 5542.05, 5569.92, 5515.09, 5528.67, 5573.91, 5655.58, 5653.17, 5668.17, 5667.48, 5686.17, 5694.56, 5718.08, 5723.93, 5725.59, 5718.32, 5708.12, 5753.96, 5720.71, 5752.52, 5717.83, 5681.67, 5741.71, 5760.35, 5743.69, 5749.28, 5751.71, 5796.22, 5923.69, 5931.79, 5923.57, 5904.32, 5997.47, 6016.3, 6029.83, 6005.05, 6041.14, 6029.45, 5925.82, 5892.08, 5882.88, 5956.17, 5948.2, 5957.8, 5994.59, 5933.2, 5891.95, 5947.81, 6007.51, 5995.35, 5970.47, 5925.7, 5998.4, 6059.01, 6047.06, 6035.64, 6011.29, 5985.23, 5978.88, 6021.85, 6103.37, 6059.62, 6131.31, 6113.92, 6116.6, 6173.32, 6185.45];
+              var data = [5383.68, 5393.07, 5396.73, 5351.73, 5367.08, 5291.04, 5325.01, 5346.71, 5318.15, 5362.81, 5368.82, 5361.47, 5386.77, 5390.71, 5440.4, 5372.31, 5369.7, 5456.67, 5458.42, 5442.05, 5472.39, 5464.56, 5444.89, 5499.7, 5506.85, 5529.96, 5581.21, 5645.81, 5651.71, 5628.72, 5613.62, 5649.73, 5625.56, 5531.32, 5568.19, 5552.05, 5605.03, 5652.01, 5607.39, 5680.93, 5686.83, 5639.21, 5668.33, 5674.5, 5711.06, 5704.35, 5705.81, 5699.18, 5662.04, 5679.25, 5660.2, 5669.13, 5611.18, 5566.53, 5664.46, 5725.7, 5787.31, 5742.79, 5693.77, 5640.94, 5534.71, 5542.05, 5569.92, 5515.09, 5528.67, 5573.91, 5655.58, 5653.17, 5668.17, 5667.48, 5686.17, 5694.56, 5718.08, 5723.93, 5725.59, 5718.32, 5708.12, 5753.96, 5720.71, 5752.52, 5717.83, 5681.67, 5741.71, 5760.35, 5743.69, 5749.28, 5751.71, 5796.22, 5923.69, 5931.79, 5923.57, 5904.32, 5997.47, 6016.3, 6029.83, 6005.05, 6041.14, 6029.45, 5925.82, 5892.08, 5882.88, 5956.17, 5948.2, 5957.8, 5994.59, 5933.2, 5891.95, 5947.81, 6007.51, 5995.35, 5970.47, 5925.7, 5998.4, 6059.01, 6047.06, 6035.64, 6011.29, 5985.23, 5978.88, 6021.85, 6103.37, 6059.62, 6131.31, 6113.92, 6116.6, 6173.32, 6179.11];
               new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -760,6 +760,22 @@
         </div>
     </div>
     
+    <div style="max-width:1100px;margin:0 auto 36px;">
+      <div style="font-size:0.78rem;color:#888;font-weight:600;text-transform:uppercase;
+                  letter-spacing:0.6px;margin-bottom:12px;display:flex;align-items:center;gap:10px;">
+        🫧 Bubble-Check
+        <span style="font-size:0.7rem;background:#1a1d27;border:1px solid #2a2d3a;color:#555;
+                     padding:2px 10px;border-radius:10px;font-weight:normal;text-transform:none;
+                     letter-spacing:0;">Marktüberhitzungs-Indikatoren</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;">
+        <div style="background:#1a1d27;border:1px solid #f8717144;border-radius:10px;padding:16px 18px;"><div style="font-size:0.7rem;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Buffett Indicator</div><div style="font-size:2rem;font-weight:bold;color:#f87171;line-height:1.1;">237.9%</div><div style="font-size:0.75rem;color:#555;margin-top:4px;">Mkt-Cap / BIP · Hist. Schnitt ~80%</div><div style="margin-top:8px;display:inline-block;font-size:0.72rem;background:#450a0a;color:#f87171;padding:2px 10px;border-radius:10px;font-weight:600;">ROT</div><div style="font-size:0.7rem;color:#f87171;margin-top:6px;">⚠️ Historische Überbewertung</div></div>
+      <div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:10px;padding:16px 18px;"><div style="font-size:0.7rem;color:#666;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">CAPE / Shiller P/E</div><div style="font-size:1.6rem;color:#333;">—</div><div style="font-size:0.75rem;color:#555;margin-top:6px;">Hist. Schnitt: ~17</div></div>
+      <div style="background:#1a1d27;border:1px solid #fbbf2444;border-radius:10px;padding:16px 18px;"><div style="font-size:0.7rem;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">S&amp;P 500 vs. 200d-MA</div><div style="font-size:2rem;font-weight:bold;color:#fbbf24;line-height:1.1;">+6.1%</div><div style="font-size:0.75rem;color:#555;margin-top:4px;">6,946 · MA200 6,548</div><div style="margin-top:8px;display:inline-block;font-size:0.72rem;background:#422006;color:#fbbf24;padding:2px 10px;border-radius:10px;font-weight:600;">+6.1% über MA200</div></div>
+      <div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:10px;padding:16px 18px;"><div style="font-size:0.7rem;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Margin Debt</div><div style="font-size:0.95rem;font-weight:600;color:#aaa;margin-bottom:6px;">FINRA-Monatsdaten</div><div style="font-size:0.75rem;color:#555;line-height:1.5;margin-bottom:10px;">Hohe Margin Debt erhöht das Risiko von Zwangsverkäufen bei Korrekturen.</div><a href="https://www.finra.org/investors/learn-to-invest/advanced-investing/margin-statistics" target="_blank" style="font-size:0.75rem;color:#38bdf8;text-decoration:none;">→ FINRA Margin Statistics ↗</a></div>
+      </div>
+    </div>
+    
     <section class="ai-section">
       <h2 class="ai-title">
         KI-Analyse — Top Aktien
@@ -779,30 +795,6 @@
           <th>KGV</th><th>52W Range</th><th>6M Chart</th><th>Begründung</th><th>Empfehlung</th>
         </tr>
       </thead><tbody>
-        <tr>
-          <td class="td-name"><strong>Lululemon Athletica</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
-          <td class="td-ticker"><code>LULU</code></td>
-          <td class="td-rating">
-            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">7/10</span>
-          </td>
-          <td class="td-kgv">
-            <span class="kgv-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044;">12.7</span>
-          </td>
-          <td class="td-range">
-    <div class="range-wrap">
-      <div class="range-labels">
-        <span>159</span><span>372</span>
-      </div>
-      <div class="range-track">
-        <div class="range-fill" style="width:11.0%"></div>
-        <div class="range-dot" style="left:11.0%"></div>
-      </div>
-      <div class="range-price">182.55</div>
-    </div></td>
-          <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,8.7 2.8,7.2 3.5,7.4 4.3,8.8 5.1,9.8 5.8,10.7 6.6,6.9 7.4,26.0 8.1,25.9 8.9,27.1 9.7,28.0 10.4,27.0 11.2,30.0 12.0,29.9 12.8,28.8 13.5,28.2 14.3,25.1 15.1,25.1 15.8,23.2 16.6,23.3 17.4,20.3 18.1,23.9 18.9,21.8 19.7,20.4 20.4,21.0 21.2,21.2 22.0,20.8 22.7,22.1 23.5,22.9 24.3,23.4 25.0,22.5 25.8,23.2 26.6,26.2 27.3,25.0 28.1,25.4 28.9,26.4 29.6,27.6 30.4,26.2 31.2,23.7 32.0,19.2 32.7,20.8 33.5,20.4 34.3,20.9 35.0,19.2 35.8,19.9 36.6,24.8 37.3,25.9 38.1,24.7 38.9,27.2 39.6,29.6 40.4,26.1 41.2,28.2 41.9,26.9 42.7,24.8 43.5,25.0 44.2,24.5 45.0,25.1 45.8,24.6 46.5,27.9 47.3,28.0 48.1,26.9 48.8,27.6 49.6,25.8 50.4,25.1 51.2,21.2 51.9,19.0 52.7,17.8 53.5,18.7 54.2,18.7 55.0,18.8 55.8,18.1 56.5,14.9 57.3,18.4 58.1,18.8 58.8,16.1 59.6,16.4 60.4,7.5 61.1,6.8 61.9,6.6 62.7,6.0 63.4,2.4 64.2,5.2 65.0,3.8 65.7,3.6 66.5,4.7 67.3,5.5 68.0,3.7 68.8,4.6 69.6,6.0 70.4,4.5 71.1,3.7 71.9,2.0 72.7,4.1 73.4,3.9 74.2,8.0 75.0,5.4 75.7,4.0 76.5,8.4 77.3,7.4 78.0,9.0 78.8,15.6 79.6,15.0 80.3,12.6 81.1,14.4 81.9,13.5 82.6,16.7 83.4,19.8 84.2,23.7 84.9,22.7 85.7,20.4 86.5,24.2 87.2,20.9 88.0,24.9 88.8,23.5 89.6,22.1 90.3,19.6 91.1,22.0 91.9,25.2 92.6,21.7 93.4,21.1 94.2,18.9 94.9,18.5 95.7,16.3 96.5,20.9 97.2,20.2 98.0,18.7" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Michael Burry hat LULU als Value-Play identifiziert; KGV ~24, starke Marke, internationale Expansion (China) läuft, FCF positiv. Kursrückgang YTD bietet attraktiveres Entry-Level.</td>
-          <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
-        </tr>
         <tr>
           <td class="td-name"><strong>Uber Technologies</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
           <td class="td-ticker"><code>UBER</code></td>
@@ -824,8 +816,32 @@
       <div class="range-price">72.83</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,5.3 2.8,6.4 3.5,5.8 4.3,7.9 5.1,8.8 5.8,8.7 6.6,9.6 7.4,10.5 8.1,7.3 8.9,6.3 9.7,7.5 10.4,7.0 11.2,5.9 12.0,3.2 12.8,4.1 13.5,8.6 14.3,7.0 15.1,3.5 15.8,2.7 16.6,4.1 17.4,4.2 18.1,4.3 18.9,3.5 19.7,2.5 20.4,4.0 21.2,5.2 22.0,5.2 22.7,5.3 23.5,2.0 24.3,4.1 25.0,2.8 25.8,5.8 26.6,8.2 27.3,7.6 28.1,7.4 28.9,7.2 29.6,9.0 30.4,9.3 31.2,8.0 32.0,8.6 32.7,9.3 33.5,7.1 34.3,7.6 35.0,5.4 35.8,6.3 36.6,6.0 37.3,5.4 38.1,5.3 38.9,2.4 39.6,7.0 40.4,8.8 41.2,9.4 41.9,9.5 42.7,7.6 43.5,8.0 44.2,8.1 45.0,9.7 45.8,9.9 46.5,9.4 47.3,10.6 48.1,11.8 48.8,17.6 49.6,17.1 50.4,17.3 51.2,17.3 51.9,15.4 52.7,13.7 53.5,14.6 54.2,13.7 55.0,10.8 55.8,10.5 56.5,10.2 57.3,9.0 58.1,12.3 58.8,16.8 59.6,15.6 60.4,15.9 61.1,19.0 61.9,19.8 62.7,21.5 63.4,21.0 64.2,21.3 65.0,19.5 65.7,19.8 66.5,19.6 67.3,19.5 68.0,19.3 68.8,18.7 69.6,19.1 70.4,18.0 71.1,20.0 71.9,15.5 72.7,14.9 73.4,13.6 74.2,15.6 75.0,16.3 75.7,15.7 76.5,16.4 77.3,16.6 78.0,16.2 78.8,17.2 79.6,16.7 80.3,18.3 81.1,18.5 81.9,18.9 82.6,19.5 83.4,20.9 84.2,19.1 84.9,20.6 85.7,19.9 86.5,22.6 87.2,26.3 88.0,25.1 88.8,25.6 89.6,26.4 90.3,26.7 91.1,29.1 91.9,28.9 92.6,30.0 93.4,29.5 94.2,27.4 94.9,27.3 95.7,26.4 96.5,29.3 97.2,28.7 98.0,27.4" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Ackman-Position mit überzeugender Begründung: Mobility + Freight + Delivery als Drei-Säulen-Modell, erstmals nachhaltig profitabel, KGV ~30 bei starkem FCF-Wachstum akzeptabel.</td>
+          <td class="td-begruendung">Ackman hält Uber als Core-Position; erstmals profitabel mit positivem FCF, KGV ~25 bei starkem Wachstum in Mobility und Delivery — faire Bewertung für Qualitätswachstum. Autonomes Fahren (Waymo-Partnership) ist langfristiger Optionswert.</td>
           <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
+        </tr>
+        <tr>
+          <td class="td-name"><strong>Lululemon Athletica</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
+          <td class="td-ticker"><code>LULU</code></td>
+          <td class="td-rating">
+            <span class="rating-badge" style="background:#f39c12;color:#ffffff;">6/10</span>
+          </td>
+          <td class="td-kgv">
+            <span class="kgv-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044;">12.7</span>
+          </td>
+          <td class="td-range">
+    <div class="range-wrap">
+      <div class="range-labels">
+        <span>159</span><span>372</span>
+      </div>
+      <div class="range-track">
+        <div class="range-fill" style="width:11.0%"></div>
+        <div class="range-dot" style="left:11.0%"></div>
+      </div>
+      <div class="range-price">182.55</div>
+    </div></td>
+          <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,8.7 2.8,7.2 3.5,7.4 4.3,8.8 5.1,9.8 5.8,10.7 6.6,6.9 7.4,26.0 8.1,25.9 8.9,27.1 9.7,28.0 10.4,27.0 11.2,30.0 12.0,29.9 12.8,28.8 13.5,28.2 14.3,25.1 15.1,25.1 15.8,23.2 16.6,23.3 17.4,20.3 18.1,23.9 18.9,21.8 19.7,20.4 20.4,21.0 21.2,21.2 22.0,20.8 22.7,22.1 23.5,22.9 24.3,23.4 25.0,22.5 25.8,23.2 26.6,26.2 27.3,25.0 28.1,25.4 28.9,26.4 29.6,27.6 30.4,26.2 31.2,23.7 32.0,19.2 32.7,20.8 33.5,20.4 34.3,20.9 35.0,19.2 35.8,19.9 36.6,24.8 37.3,25.9 38.1,24.7 38.9,27.2 39.6,29.6 40.4,26.1 41.2,28.2 41.9,26.9 42.7,24.8 43.5,25.0 44.2,24.5 45.0,25.1 45.8,24.6 46.5,27.9 47.3,28.0 48.1,26.9 48.8,27.6 49.6,25.8 50.4,25.1 51.2,21.2 51.9,19.0 52.7,17.8 53.5,18.7 54.2,18.7 55.0,18.8 55.8,18.1 56.5,14.9 57.3,18.4 58.1,18.8 58.8,16.1 59.6,16.4 60.4,7.5 61.1,6.8 61.9,6.6 62.7,6.0 63.4,2.4 64.2,5.2 65.0,3.8 65.7,3.6 66.5,4.7 67.3,5.5 68.0,3.7 68.8,4.6 69.6,6.0 70.4,4.5 71.1,3.7 71.9,2.0 72.7,4.1 73.4,3.9 74.2,8.0 75.0,5.4 75.7,4.0 76.5,8.4 77.3,7.4 78.0,9.0 78.8,15.6 79.6,15.0 80.3,12.6 81.1,14.4 81.9,13.5 82.6,16.7 83.4,19.8 84.2,23.7 84.9,22.7 85.7,20.4 86.5,24.2 87.2,20.9 88.0,24.9 88.8,23.5 89.6,22.1 90.3,19.6 91.1,22.0 91.9,25.2 92.6,21.7 93.4,21.1 94.2,18.9 94.9,18.5 95.7,16.3 96.5,20.9 97.2,20.2 98.0,18.7" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
+          <td class="td-begruendung">Michael Burry hält Lululemon — Value-Signal vom bekannten Contrarian-Investor; KGV ~20, starke Markentreue und internationale Expansion bieten Upside. ⚠️ RISIKO: Konsumabschwächung und Zollrisiken bei Asien-Produktion könnten Margen belasten.</td>
+          <td class="td-emp"><span class="emp-badge emp-wait">Abwarten</span></td>
         </tr></tbody></table>
     </div>
       
@@ -844,10 +860,10 @@
         </tr>
       </thead><tbody>
         <tr>
-          <td class="td-name"><strong>LYFT Inc.</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
+          <td class="td-name"><strong>Lyft Inc.</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
           <td class="td-ticker"><code>LYFT</code></td>
           <td class="td-rating">
-            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">7/10</span>
+            <span class="rating-badge" style="background:#f39c12;color:#ffffff;">6/10</span>
           </td>
           <td class="td-kgv">
             <span class="kgv-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044;">2.0</span>
@@ -865,8 +881,8 @@
       <div class="range-price">13.40</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,20.9 2.8,22.2 3.5,22.5 4.3,22.3 5.1,20.9 5.8,20.6 6.6,20.9 7.4,21.2 8.1,18.7 8.9,17.0 9.7,15.6 10.4,17.2 11.2,16.5 12.0,12.0 12.8,12.6 13.5,6.2 14.3,8.3 15.1,6.8 15.8,6.7 16.6,8.1 17.4,8.1 18.1,9.3 18.9,8.6 19.7,6.0 20.4,8.2 21.2,8.7 22.0,6.8 22.7,8.3 23.5,8.9 24.3,10.2 25.0,10.3 25.8,13.8 26.6,14.9 27.3,13.1 28.1,12.8 28.9,13.1 29.6,13.4 30.4,14.2 31.2,12.6 32.0,11.6 32.7,12.5 33.5,11.7 34.3,12.0 35.0,11.6 35.8,13.0 36.6,13.1 37.3,13.7 38.1,12.0 38.9,10.8 39.6,14.5 40.4,12.9 41.2,10.1 41.9,8.1 42.7,4.1 43.5,2.9 44.2,2.0 45.0,3.9 45.8,5.5 46.5,9.3 47.3,9.0 48.1,10.2 48.8,13.7 49.6,13.6 50.4,13.4 51.2,14.0 51.9,12.7 52.7,10.6 53.5,9.6 54.2,7.7 55.0,7.4 55.8,7.0 56.5,5.9 57.3,7.1 58.1,8.8 58.8,12.3 59.6,11.8 60.4,12.2 61.1,15.2 61.9,15.1 62.7,15.1 63.4,13.4 64.2,14.5 65.0,13.2 65.7,14.1 66.5,14.1 67.3,13.9 68.0,15.2 68.8,14.8 69.6,14.6 70.4,13.6 71.1,15.2 71.9,13.4 72.7,14.0 73.4,14.5 74.2,15.0 75.0,13.9 75.7,14.9 76.5,15.7 77.3,15.8 78.0,17.2 78.8,17.5 79.6,16.8 80.3,17.5 81.1,18.2 81.9,18.0 82.6,19.1 83.4,19.9 84.2,18.6 84.9,20.7 85.7,19.8 86.5,21.0 87.2,22.4 88.0,23.2 88.8,21.7 89.6,21.3 90.3,20.8 91.1,27.7 91.9,30.0 92.6,29.5 93.4,29.4 94.2,28.4 94.9,27.9 95.7,27.8 96.5,29.4 97.2,28.8 98.0,29.1" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Marktkapitalisierung ~6 Mrd. USD, KGV unter 20 (forward), erstmals nachhaltig FCF-positiv in 2025, US-Rideshare-Markt wächst strukturell. Massive Unterbewertung vs. Uber bei ähnlichem Kerngeschäft in den USA.</td>
-          <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
+          <td class="td-begruendung">Marktkapitalisierung ~$6 Mrd., KGV unter 15, positiver FCF seit 2024 — fundamental günstigster Ride-Hailing-Player in den USA mit echter operativer Hebelwirkung. Wachstum im Kernmarkt stabil, Konkurrenz durch Uber bleibt das strukturelle Hauptrisiko.</td>
+          <td class="td-emp"><span class="emp-badge emp-wait">Abwarten</span></td>
         </tr>
         <tr>
           <td class="td-name"><strong>ZIM Integrated Shipping</strong></td>
@@ -890,7 +906,7 @@
       <div class="range-price">29.20</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,26.6 2.8,27.1 3.5,27.6 4.3,28.1 5.1,28.0 5.8,28.2 6.6,28.5 7.4,28.3 8.1,28.4 8.9,28.6 9.7,28.7 10.4,28.2 11.2,28.0 12.0,26.4 12.8,26.5 13.5,26.1 14.3,25.4 15.1,26.8 15.8,26.3 16.6,26.8 17.4,26.5 18.1,27.3 18.9,27.5 19.7,28.1 20.4,28.2 21.2,27.9 22.0,27.8 22.7,27.6 23.5,27.9 24.3,28.2 25.0,28.0 25.8,29.2 26.6,30.0 27.3,29.5 28.1,28.4 28.9,28.1 29.6,28.5 30.4,28.3 31.2,28.4 32.0,28.0 32.7,27.5 33.5,27.8 34.3,27.9 35.0,26.8 35.8,26.0 36.6,25.5 37.3,26.2 38.1,25.1 38.9,25.2 39.6,26.8 40.4,25.6 41.2,26.3 41.9,26.2 42.7,25.3 43.5,25.1 44.2,24.6 45.0,24.1 45.8,24.0 46.5,22.4 47.3,22.4 48.1,22.8 48.8,22.8 49.6,22.6 50.4,22.1 51.2,18.2 51.9,17.9 52.7,16.7 53.5,18.6 54.2,18.1 55.0,17.6 55.8,16.8 56.5,17.4 57.3,17.3 58.1,17.6 58.8,17.7 59.6,17.7 60.4,19.5 61.1,16.8 61.9,17.4 62.7,18.2 63.4,18.7 64.2,18.7 65.0,17.6 65.7,15.7 66.5,15.6 67.3,15.2 68.0,15.4 68.8,15.7 69.6,15.4 70.4,14.2 71.1,15.9 71.9,13.6 72.7,13.5 73.4,13.3 74.2,13.4 75.0,12.0 75.7,14.8 76.5,12.9 77.3,12.9 78.0,15.2 78.8,14.9 79.6,13.3 80.3,14.0 81.1,13.9 81.9,12.5 82.6,12.9 83.4,12.0 84.2,12.1 84.9,14.0 85.7,13.4 86.5,14.5 87.2,14.9 88.0,16.9 88.8,16.3 89.6,15.4 90.3,16.2 91.1,15.5 91.9,15.5 92.6,13.8 93.4,4.4 94.2,2.4 94.9,2.1 95.7,2.0 96.5,3.0 97.2,2.3 98.0,2.1" fill="none" stroke="#27ae60" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">KGV deutlich unter 10, hohe Dividendenrendite, FCF positiv durch erhöhte Frachtraten. ⚠️ RISIKO: Zyklisches Shipping-Geschäft ist anfällig für Nachfragerückgänge durch Handelskonflikte und Zölle, was kurzfristig Druck erzeugt.</td>
+          <td class="td-begruendung">KGV unter 5, hohe Dividendenrendite und positiver FCF machen ZIM zu einem echten Value-Play im Shipping-Sektor mit zyklischer Erholung. ⚠️ RISIKO: Hochzyklisches Geschäft — Frachtraten-Rückgang und geopolitische Spannungen (Iran, Rotes Meer) könnten Profitabilität schnell beeinträchtigen.</td>
           <td class="td-emp"><span class="emp-badge emp-wait">Abwarten</span></td>
         </tr>
         <tr>
@@ -915,7 +931,7 @@
       <div class="range-price">84.43</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,3.2 2.8,2.0 3.5,2.9 4.3,2.8 5.1,2.5 5.8,6.0 6.6,4.4 7.4,3.9 8.1,5.4 8.9,7.3 9.7,6.7 10.4,5.8 11.2,6.0 12.0,7.4 12.8,10.9 13.5,10.6 14.3,10.0 15.1,12.9 15.8,13.2 16.6,14.9 17.4,14.7 18.1,14.5 18.9,13.9 19.7,15.4 20.4,16.7 21.2,17.4 22.0,17.7 22.7,17.7 23.5,17.6 24.3,17.5 25.0,18.0 25.8,18.4 26.6,16.5 27.3,18.0 28.1,17.3 28.9,17.4 29.6,18.2 30.4,16.4 31.2,18.6 32.0,19.2 32.7,18.6 33.5,19.8 34.3,19.4 35.0,19.0 35.8,20.5 36.6,20.3 37.3,20.5 38.1,19.9 38.9,19.5 39.6,19.2 40.4,19.4 41.2,19.8 41.9,19.3 42.7,19.3 43.5,18.5 44.2,17.8 45.0,17.4 45.8,18.1 46.5,19.8 47.3,19.8 48.1,20.0 48.8,21.3 49.6,20.8 50.4,21.8 51.2,22.5 51.9,23.1 52.7,22.8 53.5,22.6 54.2,24.0 55.0,23.3 55.8,21.6 56.5,21.9 57.3,21.5 58.1,20.9 58.8,21.1 59.6,20.0 60.4,20.5 61.1,19.7 61.9,21.0 62.7,20.0 63.4,21.0 64.2,21.3 65.0,22.8 65.7,23.4 66.5,23.2 67.3,23.7 68.0,23.7 68.8,24.7 69.6,25.3 70.4,26.0 71.1,25.6 71.9,25.6 72.7,26.5 73.4,28.0 74.2,29.2 75.0,29.1 75.7,30.0 76.5,29.2 77.3,26.9 78.0,26.4 78.8,26.7 79.6,25.4 80.3,24.0 81.1,24.7 81.9,23.5 82.6,22.7 83.4,23.6 84.2,22.9 84.9,22.2 85.7,22.0 86.5,21.1 87.2,20.1 88.0,21.7 88.8,22.9 89.6,22.9 90.3,23.5 91.1,22.5 91.9,22.4 92.6,22.3 93.4,23.8 94.2,23.1 94.9,22.2 95.7,22.0 96.5,21.8 97.2,21.3 98.0,21.6" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">KGV ~8, größter US-Eiproduzent mit starkem FCF und Netto-Cash-Bilanz, profitiert von anhaltend hohen Eierpreisen durch Vogelgrippe-Angebotsschocks. Defensive Konsumgüter mit günstiger Bewertung sind im aktuellen Makroumfeld attraktiv.</td>
+          <td class="td-begruendung">KGV unter 10, positiver FCF, schuldenarm und profitiert von strukturell hohen Eierpreisen (Vogelgrippe-Angebotsknappheit in den USA) — echter defensiver Value mit Preissetzungsmacht. Marktkapitalisierung ~$4 Mrd., geringe Korrelation zu Tech-Marktbewegungen bietet Diversifikationswert.</td>
           <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
         </tr></tbody></table>
     </div>
@@ -937,7 +953,7 @@
           <td class="td-name"><strong>Meta Platforms</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
           <td class="td-ticker"><code>META</code></td>
           <td class="td-rating">
-            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">8/10</span>
+            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">7/10</span>
           </td>
           <td class="td-kgv">
             <span class="kgv-badge" style="background:#e67e2222;color:#e67e22;border:1px solid #e67e2244;">27.9</span>
@@ -954,14 +970,14 @@
       <div class="range-price">653.69</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,5.8 2.8,6.8 3.5,6.3 4.3,8.1 5.1,8.6 5.8,8.3 6.6,6.6 7.4,6.1 8.1,6.1 8.9,4.1 9.7,6.2 10.4,6.3 11.2,5.6 12.0,4.3 12.8,2.2 13.5,2.7 14.3,2.0 15.1,2.3 15.8,4.1 16.6,5.6 17.4,4.8 18.1,6.5 18.9,7.3 19.7,7.3 20.4,8.7 21.2,11.2 22.0,9.7 22.7,12.2 23.5,11.4 24.3,11.8 25.0,11.1 25.8,8.8 26.6,12.9 27.3,11.4 28.1,12.4 28.9,11.1 29.6,11.9 30.4,11.2 31.2,9.0 32.0,8.8 32.7,8.8 33.5,8.7 34.3,8.1 35.0,6.2 35.8,6.2 36.6,6.1 37.3,18.6 38.1,21.3 38.9,22.9 39.6,24.4 40.4,23.1 41.2,25.6 41.9,25.2 42.7,23.7 43.5,24.4 44.2,27.1 45.0,27.0 45.8,27.0 46.5,28.1 47.3,28.7 48.1,29.8 48.8,30.0 49.6,29.3 50.4,26.5 51.2,23.1 51.9,23.5 52.7,21.4 53.5,22.4 54.2,21.5 55.0,22.6 55.8,19.4 56.5,17.6 57.3,18.6 58.1,20.0 58.8,21.0 59.6,20.7 60.4,21.9 61.1,21.3 61.9,19.9 62.7,21.1 63.4,18.9 64.2,19.7 65.0,19.3 65.7,18.8 66.5,18.4 67.3,19.0 68.0,19.7 68.8,18.6 69.6,19.5 70.4,20.9 71.1,19.7 71.9,19.4 72.7,21.2 73.4,21.6 74.2,20.5 75.0,22.2 75.7,23.8 76.5,26.1 77.3,25.3 78.0,25.4 78.8,27.7 79.6,26.4 80.3,21.3 81.1,19.7 81.9,17.7 82.6,17.6 83.4,18.2 84.2,8.0 84.9,11.2 85.7,12.7 86.5,14.9 87.2,18.2 88.0,18.0 88.8,19.3 89.6,17.0 90.3,17.9 91.1,18.2 91.9,21.0 92.6,22.5 93.4,22.6 94.2,22.0 94.9,21.7 95.7,20.1 96.5,22.9 97.2,22.6 98.0,20.4" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Bill Ackman hält Meta als Kernposition; starke Werbeeinnahmen, KI-Integration in Reels/Feed treibt Engagement und ARPU. KGV ~26 ist für diese Qualität vertretbar, FCF-Generierung ist klasse.</td>
+          <td class="td-begruendung">Bill Ackman hält Meta als Top-Position; starkes Werbegeschäft, AI-Integration in alle Produkte und robuste FCF-Generierung machen die Aktie zum Quality-Compounder. Buffett Indicator bei 237,9% begrenzt die Bewertung — bei Korrekturen attraktiver Einstiegspunkt.</td>
           <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
         </tr>
         <tr>
-          <td class="td-name"><strong>Alphabet</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
+          <td class="td-name"><strong>Alphabet Inc.</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
           <td class="td-ticker"><code>GOOG</code></td>
           <td class="td-rating">
-            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">8/10</span>
+            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">7/10</span>
           </td>
           <td class="td-kgv">
             <span class="kgv-badge" style="background:#e67e2222;color:#e67e22;border:1px solid #e67e2244;">29.0</span>
@@ -978,14 +994,14 @@
       <div class="range-price">313.03</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,30.0 2.8,29.9 3.5,29.1 4.3,28.9 5.1,29.2 5.8,25.3 6.6,25.0 7.4,24.5 8.1,24.6 8.9,23.4 9.7,23.5 10.4,23.3 11.2,23.1 12.0,21.0 12.8,21.1 13.5,21.4 14.3,20.9 15.1,20.3 15.8,20.8 16.6,20.9 17.4,21.8 18.1,22.1 18.9,22.0 19.7,22.5 20.4,22.7 21.2,22.3 22.0,22.1 22.7,22.1 23.5,21.1 24.3,22.0 25.0,22.3 25.8,23.0 26.6,23.9 27.3,22.5 28.1,22.2 28.9,21.0 29.6,21.0 30.4,20.6 31.2,20.0 32.0,21.1 32.7,20.9 33.5,20.6 34.3,19.2 35.0,17.3 35.8,17.6 36.6,16.3 37.3,14.9 38.1,14.9 38.9,14.4 39.6,15.7 40.4,14.3 41.2,14.2 41.9,15.3 42.7,13.1 43.5,12.9 44.2,13.8 45.0,15.5 45.8,15.9 46.5,14.1 47.3,14.3 48.1,12.6 48.8,13.2 49.6,11.3 50.4,7.4 51.2,6.4 51.9,7.1 52.7,7.1 53.5,8.1 54.2,7.9 55.0,7.0 55.8,7.5 56.5,6.7 57.3,8.2 58.1,7.5 58.8,6.9 59.6,8.4 60.4,9.0 61.1,9.3 61.9,9.6 62.7,11.6 63.4,10.4 64.2,9.4 65.0,8.8 65.7,8.0 66.5,8.0 67.3,8.1 68.0,8.2 68.8,8.2 69.6,8.3 70.4,8.0 71.1,7.6 71.9,8.2 72.7,6.6 73.4,5.9 74.2,5.2 75.0,4.5 75.7,3.7 76.5,3.8 77.3,4.4 78.0,5.0 78.8,6.6 79.6,5.4 80.3,4.9 81.1,5.4 81.9,4.3 82.6,4.0 83.4,3.8 84.2,3.3 84.9,3.3 85.7,2.0 86.5,2.9 87.2,4.4 88.0,4.8 88.8,6.4 89.6,6.2 90.3,7.4 91.1,8.8 91.9,9.2 92.6,9.9 93.4,10.6 94.2,10.4 94.9,10.4 95.7,8.1 96.5,8.8 97.2,8.9 98.0,8.5" fill="none" stroke="#27ae60" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Doppelt gehalten von Bill Ackman (Pershing); KGV ~22, starkes Cloud- und Search-Geschäft, KI-Investitionen in Gemini zahlen sich aus. Relative Unterbewertung vs. Peers macht es attraktiv.</td>
+          <td class="td-begruendung">Ackman und Burry (implizit via AI-Infrastruktur) sehen Alphabet als Core-Holding; KGV ~20, dominant im Search und Cloud mit Gemini-AI-Hebel. Regulatorische Risiken (Antitrust) und Buffett Indicator in Extremzone begrenzen Upside kurzfristig.</td>
           <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
         </tr>
         <tr>
-          <td class="td-name"><strong>Amazon</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
+          <td class="td-name"><strong>Amazon.com</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
           <td class="td-ticker"><code>AMZN</code></td>
           <td class="td-rating">
-            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">8/10</span>
+            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">7/10</span>
           </td>
           <td class="td-kgv">
             <span class="kgv-badge" style="background:#e67e2222;color:#e67e22;border:1px solid #e67e2244;">29.4</span>
@@ -1002,32 +1018,32 @@
       <div class="range-price">210.64</div>
     </div></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,14.8 2.8,14.6 3.5,13.4 4.3,14.7 5.1,16.5 5.8,16.2 6.6,11.3 7.4,13.0 8.1,11.2 8.9,10.0 9.7,14.0 10.4,14.2 11.2,15.1 12.0,13.4 12.8,12.1 13.5,13.4 14.3,13.5 15.1,13.4 15.8,15.4 16.6,18.9 17.4,19.1 18.1,20.2 18.9,19.4 19.7,18.1 20.4,19.5 21.2,18.9 22.0,18.0 22.7,19.5 23.5,18.8 24.3,18.3 25.0,16.6 25.8,15.3 26.6,21.1 27.3,19.2 28.1,21.1 28.9,21.5 29.6,22.0 30.4,22.8 31.2,21.0 32.0,18.2 32.7,20.3 33.5,18.7 34.3,17.1 35.0,15.7 35.8,14.6 36.6,14.0 37.3,17.8 38.1,7.0 38.9,2.0 39.6,4.4 40.4,3.9 41.2,7.6 41.9,6.9 42.7,4.8 43.5,4.5 44.2,7.0 45.0,10.3 45.8,11.8 46.5,12.7 47.3,18.0 48.1,17.9 48.8,20.7 49.6,18.9 50.4,16.1 51.2,14.3 51.9,14.6 52.7,12.5 53.5,12.2 54.2,11.9 55.0,13.0 55.8,14.6 56.5,14.4 57.3,15.7 58.1,15.2 58.8,13.3 59.6,14.0 60.4,16.1 61.1,18.0 61.9,17.9 62.7,18.6 63.4,15.8 64.2,15.5 65.0,15.0 65.7,13.1 66.5,13.0 67.3,12.9 68.0,13.1 68.8,12.9 69.6,13.8 70.4,15.9 71.1,12.6 71.9,8.6 72.7,8.3 73.4,5.9 74.2,5.4 75.0,5.8 75.7,7.8 76.5,10.8 77.3,10.0 78.0,9.5 78.8,13.7 79.6,13.5 80.3,12.0 81.1,9.5 81.9,9.9 82.6,6.7 83.4,7.6 84.2,8.2 84.9,9.5 85.7,7.6 86.5,9.8 87.2,12.7 88.0,17.9 88.8,24.2 89.6,25.0 90.3,25.9 91.1,27.3 91.9,29.6 92.6,30.0 93.4,28.8 94.2,27.0 94.9,26.9 95.7,24.3 96.5,26.7 97.2,25.0 98.0,24.0" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Ackman-Position; AWS-Wachstum beschleunigt sich, Retail-Margen steigen durch Effizienzgewinne. ⚠️ RISIKO: Zölle und Handelskonflikte könnten E-Commerce-Margendruck erhöhen, aber AWS wirkt als Puffer.</td>
+          <td class="td-begruendung">Ackman hält Amazon als Top-Position; AWS-Wachstum, Advertising und AI-Infrastruktur-Investitionen schaffen multiple Wachstumshebel für 12-Monats-Horizont. ⚠️ RISIKO: 150-Tage-Zoll-Uhr läuft (Juli 2026) — Retail-Segment bei Handelskonflikten vulnerabel.</td>
           <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
         </tr>
         <tr>
-          <td class="td-name"><strong>Netflix</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
-          <td class="td-ticker"><code>NFLX</code></td>
+          <td class="td-name"><strong>Salesforce</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
+          <td class="td-ticker"><code>CRM</code></td>
           <td class="td-rating">
-            <span class="rating-badge" style="background:#27ae60;color:#ffffff;">7/10</span>
+            <span class="rating-badge" style="background:#f39c12;color:#ffffff;">5/10</span>
           </td>
           <td class="td-kgv">
-            <span class="kgv-badge" style="background:#e67e2222;color:#e67e22;border:1px solid #e67e2244;">32.7</span>
+            <span class="kgv-badge" style="background:#e67e2222;color:#e67e22;border:1px solid #e67e2244;">25.6</span>
           </td>
           <td class="td-range">
     <div class="range-wrap">
       <div class="range-labels">
-        <span>75</span><span>134</span>
+        <span>175</span><span>305</span>
       </div>
       <div class="range-track">
-        <div class="range-fill" style="width:13.0%"></div>
-        <div class="range-dot" style="left:13.0%"></div>
+        <div class="range-fill" style="width:13.2%"></div>
+        <div class="range-dot" style="left:13.2%"></div>
       </div>
-      <div class="range-price">82.70</div>
+      <div class="range-price">191.75</div>
     </div></td>
-          <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,4.1 2.8,4.2 3.5,3.8 4.3,5.1 5.1,4.7 5.8,4.1 6.6,2.3 7.4,3.1 8.1,3.0 8.9,2.0 9.7,2.9 10.4,5.3 11.2,6.2 12.0,5.4 12.8,5.5 13.5,3.9 14.3,5.1 15.1,4.0 15.8,4.0 16.6,4.5 17.4,5.3 18.1,5.1 18.9,4.9 19.7,5.2 20.4,5.6 21.2,7.1 22.0,7.6 22.7,8.1 23.5,7.5 24.3,6.0 25.0,4.7 25.8,3.8 26.6,4.4 27.3,4.5 28.1,4.7 28.9,5.3 29.6,6.4 30.4,5.5 31.2,3.4 32.0,3.2 32.7,10.1 33.5,10.3 34.3,11.3 35.0,11.4 35.8,10.9 36.6,11.0 37.3,11.7 38.1,10.0 38.9,11.1 39.6,11.4 40.4,11.1 41.2,11.2 41.9,10.9 42.7,9.9 43.5,9.0 44.2,7.9 45.0,8.0 45.8,10.4 46.5,10.9 47.3,8.8 48.1,11.1 48.8,13.5 49.6,14.2 50.4,12.7 51.2,14.2 51.9,13.2 52.7,12.4 53.5,11.5 54.2,11.4 55.0,14.4 55.8,14.8 56.5,16.5 57.3,18.4 58.1,18.4 58.8,20.7 59.6,19.9 60.4,19.3 61.1,20.1 61.9,19.6 62.7,19.5 63.4,19.9 64.2,19.7 65.0,20.4 65.7,20.2 66.5,20.1 67.3,19.7 68.0,19.9 68.8,20.1 69.6,20.1 70.4,21.6 71.1,21.3 71.9,21.8 72.7,21.7 73.4,21.9 74.2,22.5 75.0,22.5 75.7,22.0 76.5,23.0 77.3,23.2 78.0,23.3 78.8,23.7 79.6,24.7 80.3,25.7 81.1,24.3 81.9,24.5 82.6,24.6 83.4,25.1 84.2,25.9 84.9,25.8 85.7,26.2 86.5,27.7 87.2,27.6 88.0,27.2 88.8,26.5 89.6,26.9 90.3,26.5 91.1,27.9 91.9,30.0 92.6,29.4 93.4,29.4 94.2,28.8 94.9,29.4 95.7,28.4 96.5,29.9 97.2,28.8 98.0,26.2" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Ad-Tier wächst stark, Passwort-Sharing-Crackdown hat Subscriber-Wachstum beschleunigt, FCF positiv und steigend. KGV ~45 ist hoch, aber Wachstumskonsistenz rechtfertigt Premium teilweise.</td>
-          <td class="td-emp"><span class="emp-badge emp-buy">Kaufen</span></td>
+          <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,9.4 2.8,7.4 3.5,6.0 4.3,5.4 5.1,6.5 5.8,5.4 6.6,9.3 7.4,7.2 8.1,6.7 8.9,6.8 9.7,9.8 10.4,8.6 11.2,9.7 12.0,9.8 12.8,10.8 13.5,9.8 14.3,9.1 15.1,8.2 15.8,7.4 16.6,9.0 17.4,8.6 18.1,10.2 18.9,9.4 19.7,8.8 20.4,11.4 21.2,11.8 22.0,10.8 22.7,10.3 23.5,8.6 24.3,10.5 25.0,10.3 25.8,8.8 26.6,9.9 27.3,7.7 28.1,10.5 28.9,11.5 29.6,8.6 30.4,9.5 31.2,5.9 32.0,3.0 32.7,5.2 33.5,5.7 34.3,5.8 35.0,5.6 35.8,5.9 36.6,6.8 37.3,5.2 38.1,4.0 38.9,3.7 39.6,5.9 40.4,6.4 41.2,10.7 41.9,10.5 42.7,9.9 43.5,9.0 44.2,8.6 45.0,10.3 45.8,9.3 46.5,11.4 47.3,12.5 48.1,14.3 48.8,15.1 49.6,14.6 50.4,14.6 51.2,12.3 51.9,14.2 52.7,13.5 53.5,12.7 54.2,12.1 55.0,10.9 55.8,8.1 56.5,3.9 57.3,4.3 58.1,3.8 58.8,2.8 59.6,3.4 60.4,3.4 61.1,5.8 61.9,5.7 62.7,4.7 63.4,4.7 64.2,4.0 65.0,2.5 65.7,2.9 66.5,2.3 67.3,2.0 68.0,2.0 68.8,2.1 69.6,2.4 70.4,6.0 71.1,5.2 71.9,3.1 72.7,2.0 73.4,3.8 74.2,4.0 75.0,4.2 75.7,10.0 76.5,10.5 77.3,12.4 78.0,14.4 78.8,16.7 79.6,16.2 80.3,14.1 81.1,14.1 81.9,13.7 82.6,14.0 83.4,14.2 84.2,18.6 84.9,19.1 85.7,19.6 86.5,24.2 87.2,23.2 88.0,26.2 88.8,25.8 89.6,25.0 90.3,25.1 91.1,27.8 91.9,27.7 92.6,26.3 93.4,28.1 94.2,26.9 94.9,27.7 95.7,27.8 96.5,30.0 97.2,27.7 98.0,25.7" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
+          <td class="td-begruendung">Aktie sank nach gemischter Guidance trotz $50 Mrd. Buyback-Ankündigung — kurzfristig negativer Sentiment-Schock, aber strukturell solides CRM-Geschäft mit AI-Agentforce-Wachstum. Buyback bei gesunkenen Kursen macht Einstieg nach Rücksetzer interessanter als vor den Zahlen.</td>
+          <td class="td-emp"><span class="emp-badge emp-wait">Abwarten</span></td>
         </tr></tbody></table>
     </div>
       
@@ -1047,15 +1063,15 @@
         </tr>
       </thead><tbody>
         <tr>
-          <td class="td-name"><strong>Workday</strong> <span class="dg-badge">🃏 Doppelgänger</span></td>
-          <td class="td-ticker"><code>WDAY</code></td>
+          <td class="td-name"><strong>CoreWeave</strong> <span class="dg-badge">🃏 Doppelgänger</span> <span class="hype-badge">Überhype ⚠️</span></td>
+          <td class="td-ticker"><code>CRWV</code></td>
           <td class="td-kgv">
-            <span class="kgv-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44;">56.2</span>
+            <span class="kgv-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44;">-459.5</span>
           </td>
-          <td><span style="color:#f87171;font-size:0.82rem;font-weight:600;">Überbewertung</span></td>
-          <td style="font-size:0.82rem;color:#aaa;">133.15<br><span style="color:#555;font-size:0.7rem;">52W: 117.76–276.00</span></td>
-          <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,7.9 2.8,6.2 3.5,6.5 4.3,6.0 5.1,6.4 5.8,5.4 6.6,5.9 7.4,5.9 8.1,5.8 8.9,6.0 9.7,7.0 10.4,7.0 11.2,7.7 12.0,7.9 12.8,8.8 13.5,5.0 14.3,5.4 15.1,5.3 15.8,3.2 16.6,3.7 17.4,3.5 18.1,3.2 18.9,2.2 19.7,2.0 20.4,3.6 21.2,5.7 22.0,5.7 22.7,4.6 23.5,4.2 24.3,5.4 25.0,4.2 25.8,4.2 26.6,5.4 27.3,4.6 28.1,4.5 28.9,5.1 29.6,6.7 30.4,5.2 31.2,3.5 32.0,2.5 32.7,3.1 33.5,3.0 34.3,3.2 35.0,4.1 35.8,4.5 36.6,5.9 37.3,5.5 38.1,3.8 38.9,4.4 39.6,5.4 40.4,5.7 41.2,7.5 41.9,7.3 42.7,6.7 43.5,6.9 44.2,7.1 45.0,7.7 45.8,6.0 46.5,7.4 47.3,7.2 48.1,7.6 48.8,9.3 49.6,7.3 50.4,7.0 51.2,5.3 51.9,9.6 52.7,9.6 53.5,10.1 54.2,10.2 55.0,9.8 55.8,9.3 56.5,8.6 57.3,8.3 58.1,8.0 58.8,7.9 59.6,7.6 60.4,7.5 61.1,9.7 61.9,9.5 62.7,9.5 63.4,9.0 64.2,8.9 65.0,9.0 65.7,9.6 66.5,9.3 67.3,8.4 68.0,8.8 68.8,9.3 69.6,9.8 70.4,11.9 71.1,11.2 71.9,10.8 72.7,10.6 73.4,11.0 74.2,11.6 75.0,11.4 75.7,13.4 76.5,14.7 77.3,15.0 78.0,16.4 78.8,17.3 79.6,17.2 80.3,16.1 81.1,15.8 81.9,15.4 82.6,16.0 83.4,15.8 84.2,19.3 84.9,19.0 85.7,19.6 86.5,22.4 87.2,20.3 88.0,23.0 88.8,22.0 89.6,24.0 90.3,24.3 91.1,26.4 91.9,26.5 92.6,26.4 93.4,26.7 94.2,26.8 94.9,27.4 95.7,28.0 96.5,30.0 97.2,29.8 98.0,29.1" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Trotz Earnings-Beat fällt die Aktie -8% — schlechtes Zeichen für eingepreiste Erwartungen und schwache Forward-Guidance. Strukturelle Konkurrenz durch SAP und AI-native HCM-Tools erhöht langfristigen Margendruck.</td>
+          <td><span style="color:#e74c3c;font-size:0.82rem;font-weight:600;">Schlechte Fundamentals</span></td>
+          <td style="font-size:0.82rem;color:#aaa;">98.01<br><span style="color:#555;font-size:0.7rem;">52W: 33.52–187.00</span></td>
+          <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,20.4 2.8,18.5 3.5,16.4 4.3,16.3 5.1,19.7 5.8,21.0 6.6,21.8 7.4,21.3 8.1,19.7 8.9,17.3 9.7,11.2 10.4,12.8 11.2,13.1 12.0,10.1 12.8,10.7 13.5,9.9 14.3,9.7 15.1,8.5 15.8,5.5 16.6,6.3 17.4,5.5 18.1,7.9 18.9,10.1 19.7,9.3 20.4,4.2 21.2,4.2 22.0,3.8 22.7,5.0 23.5,5.3 24.3,7.1 25.0,3.1 25.8,2.0 26.6,3.7 27.3,2.5 28.1,5.2 28.9,3.4 29.6,2.5 30.4,4.2 31.2,7.7 32.0,8.4 32.7,9.7 33.5,9.0 34.3,5.8 35.0,4.5 35.8,5.0 36.6,3.1 37.3,6.3 38.1,5.3 38.9,8.0 39.6,11.7 40.4,12.2 41.2,14.9 41.9,15.9 42.7,15.4 43.5,21.5 44.2,22.6 45.0,25.1 45.8,25.4 46.5,26.2 47.3,26.3 48.1,26.3 48.8,28.3 49.6,27.5 50.4,26.8 51.2,27.6 51.9,26.5 52.7,26.9 53.5,25.5 54.2,25.9 55.0,24.7 55.8,22.4 56.5,21.5 57.3,22.3 58.1,20.7 58.8,21.6 59.6,21.9 60.4,25.0 61.1,27.2 61.9,28.2 62.7,30.0 63.4,28.9 64.2,23.4 65.0,22.8 65.7,24.4 66.5,24.9 67.3,25.8 68.0,26.3 68.8,26.7 69.6,27.5 70.4,24.7 71.1,25.6 71.9,25.2 72.7,25.5 73.4,25.5 74.2,24.4 75.0,21.0 75.7,21.8 76.5,21.0 77.3,19.1 78.0,16.9 78.8,19.1 79.6,19.5 80.3,20.3 81.1,19.9 81.9,18.0 82.6,14.2 83.4,15.2 84.2,17.5 84.9,19.8 85.7,21.3 86.5,20.9 87.2,23.6 88.0,26.4 88.8,20.9 89.6,18.5 90.3,19.1 91.1,19.1 91.9,18.9 92.6,18.8 93.4,20.6 94.2,19.0 94.9,18.4 95.7,21.2 96.5,20.6 97.2,17.6 98.0,18.1" fill="none" stroke="#27ae60" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
+          <td class="td-begruendung">Reddit-Post &#x27;CoreWeave is in danger, CoreDebt&#x27; spiegelt strukturelles Problem wider: massiv verschuldetes Geschäftsmodell das auf wenige Hyperscaler-Kunden angewiesen ist. ⚠️ RISIKO: Bei Abschwächung der AI-CapEx-Ausgaben durch Microsoft/Google bricht das Geschäftsmodell ein — hohes Konzentrationsrisiko.</td>
           <td class="td-emp"><span class="emp-badge emp-sell">Verkaufen</span></td>
         </tr>
         <tr>
@@ -1067,7 +1083,7 @@
           <td><span style="color:#f87171;font-size:0.82rem;font-weight:600;">Überbewertung</span></td>
           <td style="font-size:0.82rem;color:#aaa;">195.56<br><span style="color:#555;font-size:0.7rem;">52W: 86.62–212.19</span></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,19.7 2.8,19.8 3.5,20.8 4.3,25.0 5.1,27.4 5.8,27.5 6.6,26.8 7.4,30.0 8.1,29.1 8.9,27.4 9.7,22.8 10.4,22.9 11.2,22.4 12.0,22.5 12.8,24.5 13.5,27.7 14.3,23.5 15.1,23.2 15.8,18.4 16.6,22.0 17.4,23.0 18.1,22.5 18.9,22.2 19.7,19.6 20.4,16.3 21.2,15.8 22.0,14.7 22.7,15.6 23.5,17.0 24.3,17.4 25.0,14.5 25.8,12.1 26.6,18.7 27.3,15.1 28.1,20.9 28.9,21.0 29.6,19.6 30.4,18.7 31.2,19.1 32.0,20.1 32.7,20.7 33.5,19.4 34.3,16.5 35.0,12.9 35.8,6.2 36.6,2.0 37.3,4.9 38.1,5.2 38.9,2.1 39.6,7.8 40.4,10.3 41.2,15.3 41.9,15.2 42.7,7.6 43.5,11.7 44.2,11.3 45.0,16.1 45.8,13.8 46.5,16.3 47.3,20.0 48.1,16.4 48.8,20.5 49.6,21.7 50.4,19.1 51.2,22.4 51.9,20.7 52.7,23.0 53.5,21.0 54.2,19.9 55.0,21.2 55.8,18.5 56.5,19.2 57.3,17.0 58.1,17.4 58.8,18.3 59.6,20.3 60.4,24.4 61.1,23.5 61.9,22.5 62.7,27.2 63.4,25.0 64.2,20.2 65.0,18.3 65.7,14.5 66.5,14.9 67.3,13.5 68.0,15.2 68.8,15.6 69.6,16.4 70.4,14.7 71.1,15.2 71.9,15.8 72.7,14.5 73.4,17.4 74.2,17.5 75.0,17.5 75.7,16.8 76.5,18.7 77.3,16.0 78.0,16.5 78.8,22.3 79.6,18.6 80.3,17.5 81.1,15.5 81.9,16.4 82.6,14.9 83.4,12.8 84.2,12.2 84.9,13.1 85.7,17.0 86.5,20.7 87.2,25.0 88.0,26.6 88.8,17.1 89.6,13.9 90.3,14.9 91.1,13.9 91.9,16.1 92.6,18.9 93.4,17.4 94.2,15.3 94.9,15.4 95.7,14.0 96.5,12.8 97.2,11.9 98.0,10.0" fill="none" stroke="#27ae60" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Q4 FY2026: Umsatz +73% YoY, Data-Center-Revenue +75%, Guidance beat — AI-Infrastruktur-Nachfrage bleibt strukturell intakt. ⚠️ RISIKO: China-Revenue weiterhin null trotz Trump-Exportgenehmigung, was 78 Mrd.-Guidance-Basis gefährdet; &#x27;Blockbuster results fail to dazzle&#x27; deutet auf eingepreiste Erwartungen hin.</td>
+          <td class="td-begruendung">Q4 FY2026: Umsatz +73% YoY, Datencenter-Revenue +75%, Guidance übertroffen — fundamentale KI-Infrastruktur-Nachfrage bleibt strukturell intakt. ⚠️ RISIKO: China-Revenue weiterhin null trotz Trump-Genehmigung (fehlendes $78B-Potenzial), Buffett Indicator bei 237,9% signalisiert Extremzone — max. Bewertung 7/10 trotz starker Zahlen.</td>
           <td class="td-emp"><span class="emp-badge emp-sell">Verkaufen</span></td>
         </tr>
         <tr>
@@ -1079,7 +1095,7 @@
           <td><span style="color:#f87171;font-size:0.82rem;font-weight:600;">Überbewertung</span></td>
           <td style="font-size:0.82rem;color:#aaa;">134.19<br><span style="color:#555;font-size:0.7rem;">52W: 66.12–207.52</span></td>
           <td class="td-spark"><svg width="100" height="32" viewBox="0 0 100 32" style="display:block;"><polyline points="2.0,18.6 2.8,20.0 3.5,19.5 4.3,20.0 5.1,19.9 5.8,20.7 6.6,20.2 7.4,21.3 8.1,20.3 8.9,18.0 9.7,16.5 10.4,17.3 11.2,14.8 12.0,14.9 12.8,15.2 13.5,15.9 14.3,12.8 15.1,10.9 15.8,12.0 16.6,10.8 17.4,11.9 18.1,12.0 18.9,12.6 19.7,12.1 20.4,10.8 21.2,9.9 22.0,9.2 22.7,14.2 23.5,11.9 24.3,10.9 25.0,10.4 25.8,9.8 26.6,13.3 27.3,12.7 28.1,11.8 28.9,11.9 29.6,12.4 30.4,12.4 31.2,11.1 32.0,11.2 32.7,13.3 33.5,11.5 34.3,10.1 35.0,8.4 35.8,8.3 36.6,5.0 37.3,6.5 38.1,4.4 38.9,2.0 39.6,7.9 40.4,8.9 41.2,13.5 41.9,12.5 42.7,6.9 43.5,7.8 44.2,10.2 45.0,14.5 45.8,13.9 46.5,14.8 47.3,16.2 48.1,16.9 48.8,20.4 49.6,20.7 50.4,18.1 51.2,17.6 51.9,16.8 52.7,15.8 53.5,16.2 54.2,15.0 55.0,13.1 55.8,12.5 56.5,11.1 57.3,11.2 58.1,11.1 58.8,8.9 59.6,9.0 60.4,10.4 61.1,10.6 61.9,8.9 62.7,12.7 63.4,9.7 64.2,6.9 65.0,6.7 65.7,6.7 66.5,6.6 67.3,8.6 68.0,10.2 68.8,11.4 69.6,12.5 70.4,16.1 71.1,13.8 71.9,11.8 72.7,11.1 73.4,12.8 74.2,12.6 75.0,11.9 75.7,12.1 76.5,12.3 77.3,12.8 78.0,14.9 78.8,15.8 79.6,17.0 80.3,16.8 81.1,15.4 81.9,16.2 82.6,16.8 83.4,19.8 84.2,21.8 84.9,23.7 85.7,23.2 86.5,19.6 87.2,26.2 88.0,29.6 88.8,27.5 89.6,25.0 90.3,26.2 91.1,27.6 91.9,29.9 92.6,29.1 93.4,28.5 94.2,27.7 94.9,27.8 95.7,27.7 96.5,29.4 97.2,30.0 98.0,28.1" fill="none" stroke="#e74c3c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></td>
-          <td class="td-begruendung">Sowohl Burry als auch Cathie Wood halten Palantir; Government- und Commercial-AI-Plattform mit starkem Wachstum, aber KGV &gt;100 ist bei Fear-Index Neutral ein erhebliches Bewertungsrisiko. Überhype durch Retail-Community drückt Score.</td>
+          <td class="td-begruendung">Sowohl Burry als auch Cathie Wood halten Palantir — konträre Smart-Money-Positionierung deutet auf echten Wert hin; US-Government + Commercial AI-Plattform wächst stark. ⚠️ RISIKO: KGV über 100 ist in Extremzone des Buffett Indicators nicht vertretbar — überhype: true, Bewertung reduziert.</td>
           <td class="td-emp"><span class="emp-badge emp-sell">Verkaufen</span></td>
         </tr></tbody></table>
     </div>
@@ -1141,7 +1157,7 @@
         <div class="chart-card">
           <div class="chart-card-header">
             <div>
-              <span class="chart-name">Alphabet</span>
+              <span class="chart-name">Alphabet Inc.</span>
               <code class="chart-ticker">GOOG</code>
             </div>
             <div class="chart-meta">
@@ -1191,7 +1207,7 @@
         <div class="chart-card">
           <div class="chart-card-header">
             <div>
-              <span class="chart-name">Amazon</span>
+              <span class="chart-name">Amazon.com</span>
               <code class="chart-ticker">AMZN</code>
             </div>
             <div class="chart-meta">
@@ -1204,56 +1220,6 @@
             (function() {
               var ctx = document.getElementById('chart_AMZN').getContext('2d');
               var data = [228.71, 229.12, 231.6, 229.0, 225.34, 225.99, 235.68, 232.33, 235.84, 238.24, 230.33, 229.95, 228.15, 231.43, 234.05, 231.62, 231.23, 231.48, 227.63, 220.71, 220.21, 218.15, 219.78, 222.17, 219.57, 220.63, 222.41, 219.51, 220.9, 221.78, 225.22, 227.74, 216.37, 220.07, 216.39, 215.57, 214.47, 213.04, 216.48, 222.03, 217.95, 221.09, 224.21, 226.97, 229.25, 230.3, 222.86, 244.22, 254.0, 249.32, 250.2, 243.04, 244.41, 248.4, 249.1, 244.2, 237.58, 234.69, 232.87, 222.55, 222.69, 217.14, 220.69, 226.28, 229.67, 229.16, 233.22, 233.88, 234.42, 232.38, 229.11, 229.53, 226.89, 227.92, 231.78, 230.28, 226.19, 222.54, 222.56, 221.27, 226.76, 227.35, 228.43, 232.14, 232.38, 232.52, 232.07, 232.53, 230.82, 226.5, 233.06, 240.93, 241.56, 246.29, 247.38, 246.47, 242.6, 236.65, 238.18, 239.12, 231.0, 231.31, 234.34, 239.16, 238.42, 244.68, 243.01, 241.73, 239.3, 242.96, 238.62, 232.99, 222.69, 210.32, 208.72, 206.96, 204.08, 199.6, 198.79, 201.15, 204.79, 204.86, 210.11, 205.27, 208.56, 210.64];
-              var labels = data.map(function(_, i) { return ''; });
-              new Chart(ctx, {
-                type: 'line',
-                data: {
-                  labels: labels,
-                  datasets: [{
-                    data: data,
-                    borderColor: '#e74c3c',
-                    backgroundColor: '#e74c3c18',
-                    borderWidth: 2,
-                    pointRadius: 0,
-                    fill: true,
-                    tension: 0.3
-                  }]
-                },
-                options: {
-                  responsive: true,
-                  plugins: { legend: { display: false }, tooltip: {
-                    callbacks: {
-                      label: function(ctx) { return ctx.parsed.y.toFixed(2); }
-                    }
-                  } },
-                  scales: {
-                    x: { display: false },
-                    y: {
-                      grid: { color: '#1e2130' },
-                      ticks: { color: '#666', font: { size: 10 } }
-                    }
-                  }
-                }
-              });
-            })();
-          </script>
-        </div>
-        <div class="chart-card">
-          <div class="chart-card-header">
-            <div>
-              <span class="chart-name">Lululemon Athletica</span>
-              <code class="chart-ticker">LULU</code>
-            </div>
-            <div class="chart-meta">
-              <span class="chart-price" style="color:#e74c3c;">182.55</span>
-              <span class="chart-range-label">52W: 159.25 – 371.75</span>
-            </div>
-          </div>
-          <canvas id="chart_LULU" height="120"></canvas>
-          <script>
-            (function() {
-              var ctx = document.getElementById('chart_LULU').getContext('2d');
-              var data = [202.53, 205.57, 205.08, 202.2, 200.21, 198.53, 206.09, 167.8, 168.1, 165.69, 163.9, 165.78, 159.87, 159.98, 162.34, 163.48, 169.76, 169.62, 173.41, 173.33, 179.22, 172.01, 176.3, 179.11, 177.93, 177.57, 178.2, 175.59, 174.12, 173.17, 174.82, 173.48, 167.51, 169.85, 169.13, 167.1, 164.62, 167.41, 172.43, 181.39, 178.29, 179.06, 178.17, 181.39, 179.98, 170.3, 168.02, 170.54, 165.47, 160.66, 167.59, 163.55, 166.13, 170.35, 169.81, 170.9, 169.66, 170.68, 164.16, 163.97, 166.06, 164.69, 168.18, 169.67, 177.51, 181.94, 184.18, 182.41, 182.4, 182.3, 183.6, 190.01, 183.04, 182.28, 187.62, 187.01, 204.97, 206.29, 206.74, 207.87, 215.11, 209.45, 212.37, 212.68, 210.4, 208.97, 212.54, 210.67, 207.81, 210.81, 212.4, 215.88, 211.72, 212.17, 203.9, 209.04, 211.9, 203.14, 205.01, 201.87, 188.76, 189.84, 194.66, 191.07, 192.79, 186.39, 180.35, 172.54, 174.5, 179.08, 171.57, 178.0, 170.09, 172.85, 175.68, 180.62, 175.86, 169.53, 176.42, 177.72, 182.13, 182.88, 187.3, 178.11, 179.49, 182.55];
               var labels = data.map(function(_, i) { return ''; });
               new Chart(ctx, {
                 type: 'line',
@@ -1341,19 +1307,19 @@
         <div class="chart-card">
           <div class="chart-card-header">
             <div>
-              <span class="chart-name">Netflix</span>
-              <code class="chart-ticker">NFLX</code>
+              <span class="chart-name">Lululemon Athletica</span>
+              <code class="chart-ticker">LULU</code>
             </div>
             <div class="chart-meta">
-              <span class="chart-price" style="color:#e74c3c;">82.70</span>
-              <span class="chart-range-label">52W: 75.01 – 134.12</span>
+              <span class="chart-price" style="color:#e74c3c;">182.55</span>
+              <span class="chart-range-label">52W: 159.25 – 371.75</span>
             </div>
           </div>
-          <canvas id="chart_NFLX" height="120"></canvas>
+          <canvas id="chart_LULU" height="120"></canvas>
           <script>
             (function() {
-              var ctx = document.getElementById('chart_NFLX').getContext('2d');
-              var data = [122.61, 122.35, 123.14, 120.82, 121.41, 122.62, 125.75, 124.38, 124.48, 126.32, 124.77, 120.35, 118.84, 120.23, 120.05, 122.85, 120.78, 122.7, 122.74, 121.85, 120.39, 120.82, 121.06, 120.64, 119.89, 117.09, 116.25, 115.33, 116.33, 119.11, 121.43, 123.11, 122.01, 121.9, 121.54, 120.33, 118.36, 119.94, 123.86, 124.14, 111.64, 111.36, 109.47, 109.46, 110.25, 110.04, 108.9, 111.89, 110.01, 109.3, 109.85, 109.7, 110.37, 112.01, 113.64, 115.75, 115.42, 111.22, 110.29, 114.09, 110.0, 105.67, 104.31, 106.97, 104.4, 106.14, 107.58, 109.13, 109.35, 103.96, 103.22, 100.24, 96.79, 96.71, 92.71, 94.09, 95.19, 93.77, 94.57, 94.79, 94.0, 94.39, 93.23, 93.5, 93.64, 94.47, 94.15, 93.78, 93.76, 90.99, 91.46, 90.65, 90.73, 90.53, 89.46, 89.41, 90.32, 88.55, 88.05, 88.0, 87.26, 85.36, 83.54, 86.12, 85.7, 85.58, 84.64, 83.16, 83.49, 82.76, 79.94, 80.16, 80.87, 82.2, 81.47, 82.21, 79.62, 75.86, 76.87, 77.0, 77.99, 77.0, 78.67, 76.02, 78.04, 82.7];
+              var ctx = document.getElementById('chart_LULU').getContext('2d');
+              var data = [202.53, 205.57, 205.08, 202.2, 200.21, 198.53, 206.09, 167.8, 168.1, 165.69, 163.9, 165.78, 159.87, 159.98, 162.34, 163.48, 169.76, 169.62, 173.41, 173.33, 179.22, 172.01, 176.3, 179.11, 177.93, 177.57, 178.2, 175.59, 174.12, 173.17, 174.82, 173.48, 167.51, 169.85, 169.13, 167.1, 164.62, 167.41, 172.43, 181.39, 178.29, 179.06, 178.17, 181.39, 179.98, 170.3, 168.02, 170.54, 165.47, 160.66, 167.59, 163.55, 166.13, 170.35, 169.81, 170.9, 169.66, 170.68, 164.16, 163.97, 166.06, 164.69, 168.18, 169.67, 177.51, 181.94, 184.18, 182.41, 182.4, 182.3, 183.6, 190.01, 183.04, 182.28, 187.62, 187.01, 204.97, 206.29, 206.74, 207.87, 215.11, 209.45, 212.37, 212.68, 210.4, 208.97, 212.54, 210.67, 207.81, 210.81, 212.4, 215.88, 211.72, 212.17, 203.9, 209.04, 211.9, 203.14, 205.01, 201.87, 188.76, 189.84, 194.66, 191.07, 192.79, 186.39, 180.35, 172.54, 174.5, 179.08, 171.57, 178.0, 170.09, 172.85, 175.68, 180.62, 175.86, 169.53, 176.42, 177.72, 182.13, 182.88, 187.3, 178.11, 179.49, 182.55];
               var labels = data.map(function(_, i) { return ''; });
               new Chart(ctx, {
                 type: 'line',
@@ -1391,7 +1357,57 @@
         <div class="chart-card">
           <div class="chart-card-header">
             <div>
-              <span class="chart-name">LYFT Inc.</span>
+              <span class="chart-name">Salesforce</span>
+              <code class="chart-ticker">CRM</code>
+            </div>
+            <div class="chart-meta">
+              <span class="chart-price" style="color:#e74c3c;">191.75</span>
+              <span class="chart-range-label">52W: 174.57 – 304.92</span>
+            </div>
+          </div>
+          <canvas id="chart_CRM" height="120"></canvas>
+          <script>
+            (function() {
+              var ctx = document.getElementById('chart_CRM').getContext('2d');
+              var data = [242.92, 249.32, 253.68, 255.39, 252.01, 255.59, 243.19, 249.92, 251.43, 251.22, 241.76, 245.46, 241.95, 241.71, 238.51, 241.82, 243.89, 246.69, 249.29, 244.17, 245.49, 240.56, 243.04, 244.71, 236.62, 235.31, 238.5, 239.97, 245.38, 239.35, 240.04, 244.93, 241.29, 248.35, 239.38, 236.2, 245.6, 242.69, 253.87, 262.99, 256.23, 254.64, 254.42, 255.06, 253.85, 251.05, 256.24, 259.99, 260.92, 254.03, 252.27, 238.88, 239.49, 241.32, 244.11, 245.62, 240.04, 243.27, 236.65, 233.12, 227.51, 225.01, 226.74, 226.45, 233.74, 227.78, 230.17, 232.45, 234.33, 238.34, 247.06, 260.15, 259.11, 260.6, 263.77, 261.93, 261.81, 254.17, 254.5, 257.72, 257.85, 259.91, 264.63, 263.43, 265.26, 266.08, 266.23, 265.92, 264.91, 253.62, 256.26, 262.9, 266.12, 260.53, 259.94, 259.4, 241.06, 239.57, 233.53, 227.11, 220.07, 221.58, 228.09, 228.05, 229.4, 228.53, 227.96, 214.08, 212.29, 210.81, 196.38, 199.44, 189.97, 191.35, 194.03, 193.45, 185.0, 185.43, 189.72, 184.29, 187.79, 185.29, 185.16, 178.16, 185.42, 191.75];
+              var labels = data.map(function(_, i) { return ''; });
+              new Chart(ctx, {
+                type: 'line',
+                data: {
+                  labels: labels,
+                  datasets: [{
+                    data: data,
+                    borderColor: '#e74c3c',
+                    backgroundColor: '#e74c3c18',
+                    borderWidth: 2,
+                    pointRadius: 0,
+                    fill: true,
+                    tension: 0.3
+                  }]
+                },
+                options: {
+                  responsive: true,
+                  plugins: { legend: { display: false }, tooltip: {
+                    callbacks: {
+                      label: function(ctx) { return ctx.parsed.y.toFixed(2); }
+                    }
+                  } },
+                  scales: {
+                    x: { display: false },
+                    y: {
+                      grid: { color: '#1e2130' },
+                      ticks: { color: '#666', font: { size: 10 } }
+                    }
+                  }
+                }
+              });
+            })();
+          </script>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <span class="chart-name">Lyft Inc.</span>
               <code class="chart-ticker">LYFT</code>
             </div>
             <div class="chart-meta">
@@ -1541,19 +1557,19 @@
         <div class="chart-card">
           <div class="chart-card-header">
             <div>
-              <span class="chart-name">Workday</span>
-              <code class="chart-ticker">WDAY</code>
+              <span class="chart-name">CoreWeave</span>
+              <code class="chart-ticker">CRWV</code>
             </div>
             <div class="chart-meta">
-              <span class="chart-price" style="color:#e74c3c;">133.15</span>
-              <span class="chart-range-label">52W: 117.76 – 276.00</span>
+              <span class="chart-price" style="color:#27ae60;">98.01</span>
+              <span class="chart-range-label">52W: 33.52 – 187.00</span>
             </div>
           </div>
-          <canvas id="chart_WDAY" height="120"></canvas>
+          <canvas id="chart_CRWV" height="120"></canvas>
           <script>
             (function() {
-              var ctx = document.getElementById('chart_WDAY').getContext('2d');
-              var data = [222.88, 229.71, 228.5, 230.82, 228.89, 233.43, 231.13, 231.08, 231.81, 230.73, 226.48, 226.67, 223.39, 222.75, 219.01, 234.88, 233.5, 233.62, 242.66, 240.32, 241.51, 242.75, 246.67, 247.69, 240.73, 232.21, 232.1, 236.48, 238.36, 233.17, 238.25, 238.22, 233.18, 236.6, 237.18, 234.76, 227.6, 234.25, 241.2, 245.67, 242.83, 243.28, 242.75, 238.91, 236.93, 231.36, 232.87, 239.92, 237.68, 233.47, 232.1, 224.5, 225.17, 227.97, 226.98, 225.93, 223.49, 230.82, 224.95, 225.64, 223.86, 216.81, 225.14, 226.64, 233.69, 215.34, 215.62, 213.35, 213.06, 214.84, 216.62, 219.96, 221.0, 222.25, 222.75, 224.04, 224.49, 214.9, 216.11, 216.0, 218.08, 218.63, 217.99, 215.44, 216.85, 220.7, 218.99, 216.93, 214.78, 205.79, 208.9, 210.3, 211.14, 209.79, 207.19, 207.91, 199.55, 193.99, 192.72, 186.86, 182.99, 183.41, 188.18, 189.26, 190.85, 188.58, 189.12, 174.66, 175.63, 173.38, 161.17, 170.15, 158.76, 162.92, 154.56, 153.23, 144.55, 144.04, 144.42, 143.12, 142.63, 140.02, 137.81, 129.21, 130.23, 133.15];
+              var ctx = document.getElementById('chart_CRWV').getContext('2d');
+              var data = [91.39, 96.93, 102.79, 103.04, 93.34, 89.88, 87.48, 89.09, 93.55, 100.22, 117.14, 112.69, 111.96, 120.47, 118.75, 120.86, 121.39, 124.86, 133.23, 130.89, 133.4, 126.66, 120.34, 122.52, 136.85, 137.05, 138.0, 134.79, 133.85, 128.83, 139.98, 143.08, 138.43, 141.62, 134.06, 139.24, 141.74, 136.87, 127.06, 125.06, 121.53, 123.34, 132.55, 136.06, 134.8, 139.93, 131.06, 133.71, 126.32, 115.75, 114.42, 106.93, 104.01, 105.61, 88.39, 85.43, 78.34, 77.36, 75.33, 74.9, 74.92, 69.21, 71.65, 73.6, 71.29, 74.29, 73.12, 77.06, 76.03, 79.36, 85.75, 88.3, 86.24, 90.66, 88.16, 87.38, 78.59, 72.35, 69.5, 64.55, 67.68, 83.0, 84.83, 80.26, 78.87, 76.42, 74.92, 73.9, 71.61, 79.32, 76.86, 77.94, 77.18, 77.09, 80.14, 89.93, 87.48, 89.8, 95.01, 101.23, 95.22, 94.05, 91.79, 92.98, 98.31, 108.86, 106.02, 99.53, 93.19, 88.94, 90.06, 82.46, 74.65, 89.95, 96.79, 95.11, 95.15, 95.7, 96.04, 91.0, 95.45, 97.14, 89.25, 90.84, 99.3, 98.01];
               var labels = data.map(function(_, i) { return ''; });
               new Chart(ctx, {
                 type: 'line',
@@ -1561,8 +1577,8 @@
                   labels: labels,
                   datasets: [{
                     data: data,
-                    borderColor: '#e74c3c',
-                    backgroundColor: '#e74c3c18',
+                    borderColor: '#27ae60',
+                    backgroundColor: '#27ae6018',
                     borderWidth: 2,
                     pointRadius: 0,
                     fill: true,
@@ -1773,6 +1789,10 @@
               <div class="news-meta"><span class="news-source">Investing.com</span><span class="news-date">Thu, 26 Feb 2026</span></div>
             </div>
             <div class="news-card">
+              <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOMWxySVRPVG05OFNYNHRqN080QWp0cmxqVkpnZmI3Yk1fSHMzallBeU52enBQaWF5N3oyWFlRRUNid1ZtaG9FeFdHMHhLYzRfa3dWQlpxcnBxb3hpNEh0aHBQRExjWFRaRTF4TTVER0dMVkZNd2hXVzRiQ2RnMlBjRDJCOUwxNDZxeGhzdWxDdGNmN091eG82TWpEazNaUnhyZWkxRWdLdHVzeVNWNFBKNTBpVWNqNGpxSXFzRENYZ1NXUFpVOW1TcWNn?oc=5" target="_blank" class="news-title">European shares subdued on mixed earnings; tech in focus after Nvidia beat By Reuters - Investing.com</a>
+              <div class="news-meta"><span class="news-source">Investing.com</span><span class="news-date">Thu, 26 Feb 2026</span></div>
+            </div>
+            <div class="news-card">
               <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2I1Q0JUSjdCOFBwY2JwYXlyZHNLSXJ1ZjVWRW02cXVhOV9taTlXd3NnVHgySjBqNUJhbkYtSmt4Q2hJeTRKaURpY0hRRWU4LW11Zy1jZXlwZzNuVDdFNmk1QjN2NlpoWjU4YTRHb1E4UlE0Ulg0N05YMDZVb0huUDBGZG5kQ2JsVVVya2lONzlxcnZxdkI0cS1R?oc=5" target="_blank" class="news-title">The Market Awaits Nvidia But This Data Center Builder Is Already Soaring On Earnings - Investor&#x27;s Business Daily</a>
               <div class="news-meta"><span class="news-source">Investor&#x27;s Business Daily</span><span class="news-date">Wed, 25 Feb 2026</span></div>
             </div>
@@ -1785,40 +1805,36 @@
               <div class="news-meta"><span class="news-source">TipRanks</span><span class="news-date">Thu, 26 Feb 2026</span></div>
             </div>
             <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPM3YzakZVVjN3R0hDNmZFd0FtRk94ZGJDZUJmcTZCTEJ0OW5sSXFqRExiTzV0WnVQZWRQX2w3N3B1djE5N2NkM05OTWZaQ1V4dkRsUjVuTFg2NTJnN2RGalllWVBjLUd5NEdaVjZqOVVwb2xrcS1mNU5LS0hnbTFLd0Y5QWR0aGVqNnptX1VJVTgxQVk2b0t3NTNGWkVyQ3dX?oc=5" target="_blank" class="news-title">Nasdaq Soars Ahead of Nvidia Earnings: Stock Market Today - Kiplinger</a>
-              <div class="news-meta"><span class="news-source">Kiplinger</span><span class="news-date">Wed, 25 Feb 2026</span></div>
-            </div>
-            <div class="news-card">
               <a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSFRhWVBXbXBEN2l4M3MwR1BSaUdlbTh3ejU4VXdBanRYUTNJYlFGUWtkWERmdGpLNjVFcGNFYmpMaHp2cmprVVczWGh2bEU0UzAzaUl6R0lXYllDRktPTEZLelhyZnBnSVRfcG9oaW5wcHR3V2tSWjdSdENXdzBwamNXWGRLeHVLTzNQUWZMdmd3bVktbHZzQVFvMmhhc2pXSHFjeFFqV2QwcmxVcVpDTmZUdUVrMlVhMnI1WENXOTRhTHFMSUFSOVdfVVYzb2xYaC1lQUlKV3FuMGFxby0wWk51N3k4aENhRVEyNk5mT0lqUS12S0RJ?oc=5" target="_blank" class="news-title">Asian shares mostly rise after Nvidia earnings beat expectations - LancasterOnline</a>
               <div class="news-meta"><span class="news-source">LancasterOnline</span><span class="news-date">Thu, 26 Feb 2026</span></div>
+            </div>
+            <div class="news-card">
+              <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPM3YzakZVVjN3R0hDNmZFd0FtRk94ZGJDZUJmcTZCTEJ0OW5sSXFqRExiTzV0WnVQZWRQX2w3N3B1djE5N2NkM05OTWZaQ1V4dkRsUjVuTFg2NTJnN2RGalllWVBjLUd5NEdaVjZqOVVwb2xrcS1mNU5LS0hnbTFLd0Y5QWR0aGVqNnptX1VJVTgxQVk2b0t3NTNGWkVyQ3dX?oc=5" target="_blank" class="news-title">Nasdaq Soars Ahead of Nvidia Earnings: Stock Market Today - Kiplinger</a>
+              <div class="news-meta"><span class="news-source">Kiplinger</span><span class="news-date">Wed, 25 Feb 2026</span></div>
             </div>
             <div class="news-card">
               <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxQZE9ZdnUtc09YeTVYSEJZV05vekUwYkhZV3RlOHR6R0poWW5rMmRFRWxCenNiS2IxR3FuSl9lazRWbjBnLThoMXFhM0R6SGREVzA1S0pPZDUyYXpVaEUta2g0YS1EMVNyeFdrb2Z5bWdDdEVhUmV5bG51S3pkMXJOSlBsR2xzV05UbkhYYUhBdVJGalBORjd0bzZqWmZrNHd3TWxCMXcwY2RmUlZPR2FBUGQtOVFTdm9FVmd6QllR?oc=5" target="_blank" class="news-title">Stock Market Today, Feb. 23: Nvidia Earnings Loom as Tariff Concerns Drive Dow 800 Points Lower - Nasdaq</a>
               <div class="news-meta"><span class="news-source">Nasdaq</span><span class="news-date">Mon, 23 Feb 2026</span></div>
             </div>
             <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXdOR3FtUUcxT3U4eUtlQkNlS0pRRVo0TEw3a0hYR2pTcHhUQ1Y1dUZtS2xNU3NMUXVyajgxcHBVcHBBVk9hblNiMjFuT21YS085ZjEtbUJucW1XRHo2MDZhRnY2NjNOc21rTjZKXzlHdkN4OEZKOFZrVDRFd2J6R3ZWaF96S01LcllrS2tKeHVLcC1YcnBDbHoxT1FpejRwT1ViZDBUSFYya2VNWlHSAbMBQVVfeXFMTTFQcENhMDM2MUlVb2ZycjNtcFR0WDlDQ0xIWHBuTnpJa1BLbkl1VkMzVTltOF9PbXdWWXY1UEUxQlRVNF9Rekw0N0tQNzRSRWQ2N1otWFBMckNOQ085RXRPMzhmMEs5a2pOVFJaSUJzcTBiVHRmcGhHdE5QTFhoY0xLSU4wZ2Jpd0pBdTlGSGxTaE1IbnJyeVNfTVFkZ1NqVWhUSmhlM3poc3VicFdhVnJqRjg?oc=5" target="_blank" class="news-title">Nvidia’s Jensen Huang says markets ‘got it wrong’ on AI threat to software companies - CNBC</a>
-              <div class="news-meta"><span class="news-source">CNBC</span><span class="news-date">Wed, 25 Feb 2026</span></div>
+              <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNemppZE9UVldkQi1ZbXY4T05tZHN0N2tQaUprazlCUXozLUF3T0VrSEJpb1hYM09fcGp2cVJnNjlMamNGLW5YZEhrZzk1cGM0dE5yLXVteUg0NUNhVHFubGtsRXN4SDlXOHd4TmN1SEt6M25HTU8yN3RnMWhaQ1RtM1BjS1NQRFpXRjZkaVhnMDZWNV9ZdWh2TDV2bU5GNVFPYkQxcmV6cXJYblY0Yk9hblhGWDR2NDQ1X2cwTXN3?oc=5" target="_blank" class="news-title">Nvidia&#x27;s Earnings Could Be a Make or Break Moment for the Stock Market - Investopedia</a>
+              <div class="news-meta"><span class="news-source">Investopedia</span><span class="news-date">Wed, 25 Feb 2026</span></div>
             </div>
             <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0RGalgtcHFieHFXLTJOS3R3ZU83ZFg4amh4bHdDaV9rVkVwRXFUYUg4VTVlbXRCVTBoQ1JRbFZFZFJ5a3VQZHNLNkhhMFowWGE5elhrZU94V3NqVUdZQ0tqaXY3WW1mSm45UkZPRGRtM3hFZlhtSm5RSnFkaHFJcDZEblZhaEYyLXRFb3BqRy0xcUNkNUQzWlF3NUlOcG5xekRfVGxCWGI0b1h2ZEZJVWRFU1JjWXR6U1hIcUV3ZThrVkFqRk9Sbk1SN3BuUVpmNnI3Xy0yNWVMd190?oc=5" target="_blank" class="news-title">Stock market today: Dow, S&amp;P 500, Nasdaq futures wobble after Nvidia&#x27;s big earnings, forecast beats - Yahoo Finance</a>
-              <div class="news-meta"><span class="news-source">Yahoo Finance</span><span class="news-date">Thu, 26 Feb 2026</span></div>
-            </div>
-            <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5HdHZoUEsza0ZKNzZSdzNMd1NuNW1MUm9jVWVyaEtVWkF1U012Ui05aWdZTnlwVXY4MzdtNE9WeGlZdnFieEF6NkZNX2h4TXNNMjB3TDh6SnVncTBFeHYyMDl5OGRpUWo5U3lVLWdpa0dhcUVSVmtn0gF8QVVfeXFMT3pYMkxvOU1QcGNuOTdXUF9YNzlHR0F0MFIzSy1LOHNDd0dQY25ieXhxbktwR2hmQXFVTUoyWmRlSjN3ZURZckZjUGtSTnYtdVJTTDBQbk02WjVUUVJiWElTVzN4QWY5RnpwbjRqd0NUbENreWdaOEFtdFFEeA?oc=5" target="_blank" class="news-title">Stock futures slip as traders mull over earnings from Nvidia and Salesforce: Live updates - CNBC</a>
-              <div class="news-meta"><span class="news-source">CNBC</span><span class="news-date">Thu, 26 Feb 2026</span></div>
-            </div>
-            <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMigwNBVV95cUxPNmlMOHQtWjVrcGs0TkF0dnNmeUVIX1pMQ0ZYektqSmU1b1hLVW1LR2d1M2tDcHhkZG8tTVpET05pRlZGVTdKNUsxVDc3TThjbDVVbi1XZENzOHV6NkxOVTNwd3pXWVZlSlNPV1Y5cUxMU3hIX2hMUVJfM1BUd3hUZHNXVWpNUElZMmRTODhxcnNEWXNKNGhGaHI2TVFJTDYwVk1Ra1ZFc0tmdXFOd2daZmNuMWt1dTBRS2FOMllmbFlBQ0RXNGJWa1RhcnAxMGJjc1V4VDdoSm5NN2JVMFZxelhTbGhTdDZVUVVYREpDa1pZWUtPVGRCZTREajFlTG5Rck9VWVptTG9RTDhTTkFEc1hRODZwdy1iSkdTd3lvdnZBWUw5WFI3ZHNNYzd5c1hYWEJXZk1rN1NwNEY2UWJzbmdsSnl4OVdaSlZDbUE1TEZLMnUxQ1dtQkZkOTBoYU9UcnkyTmtUYVNEX2JCb1VxZ3NzUm40RXppbGRpMExSOHZkLTA?oc=5" target="_blank" class="news-title">The Stock Market Wants an Earnings Blowout From Nvidia. It Could Make Things Worse. - Barron&#x27;s</a>
+              <a href="https://news.google.com/rss/articles/CBMigwNBVV95cUxQWjlWRjFSMkRnWHY0Y21xTzNWOEhISjNESDJ5aVNSVlpwUDZabm11YzJ4UkFiUUV1cGNReWJjS0k2UXo3ODYteGpBWjJoeFlKcjV1LW52VkV4YVVucDdJNllPWTJwMUNCLXZUUWlCaU9HX3dSNkhqLWh6MzhsVnExeGFIXzJ6ckxZZlJoTnZoYklXbnZNeEFsLXhIX3Fwd1Zsbl9RQUJlOTRabEs4ZHR3LTdYUmN0NFJfSEJMSG16U1I3clpCTjM3cm1mdXNRYWp6eE5sRmN0bXlXX1ROYlBRV0k0TWV2ZXhNNldUaXg2cm5jUzNQYkNXUG1LYVJOc01VQTB0bTYxVDZ4T3JuSkE1V3JJX0N5MEpTUERYSktTTlRXNGhxNnBOaTdVS19jWEQ0QU0zMUJMUXdLWml0cE56SVBCNE1ELUo2RHFjZWFLZ0xRVk8yYVN0S1JhYmxJcDBBY1NuSXp1SVlBb3NXa09raFZUTnNzM3NOWlFIODBqSFRCTGM?oc=5" target="_blank" class="news-title">The Stock Market Wants an Earnings Blowout From Nvidia. It Could Make Things Worse. - Barron&#x27;s</a>
               <div class="news-meta"><span class="news-source">Barron&#x27;s</span><span class="news-date">Wed, 25 Feb 2026</span></div>
             </div>
             <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQRXZpR0JjSk54MnhRREVYX0NDUFI5Z3QwNFF5MXZhRlpMN1F1aVk5Tkw2aE5LeG02NExEdWVUeUhNUUhQaEtEaVpmZkRuTXlTa2pyTTQ5S0pyTENRVnRmYkhyR0FMeUwwRl9SS3B1ZnNhQWFBY2YzT0FyamF5R0RTdjdSNVhIWW90cElHTGNuZDJYWVZ3STdRanlrejc2VU44T0xjQlNrWkJ1Z25zcURJaXRTbGtQSWxhOGpOVg?oc=5" target="_blank" class="news-title">Stock Market Today: Nasdaq Jumps Ahead Of Nvidia Earnings; Goldman Leads Bank Bounce (Live Coverage) - Investor&#x27;s Business Daily</a>
+              <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNbnF4cE9LTFhoZkRVTlMxc1M0SDdSVW1Wb0xEZUtRcllVek9BWHN3OHhuejhNVzhIRlZpODFYQk1hVndvR3k5Y2xaZGViQlFzbkttVXczaHlqaG1uTHo5MFFoTEpCX3F3VEJXUmVnXzlybnU5cm1vZnpLNE5ta2lhb3hjU0JOdXlfUXc?oc=5" target="_blank" class="news-title">The Market Paradox Of Nvidia&#x27;s Earnings Reports - Investor&#x27;s Business Daily</a>
               <div class="news-meta"><span class="news-source">Investor&#x27;s Business Daily</span><span class="news-date">Wed, 25 Feb 2026</span></div>
             </div>
             <div class="news-card">
-              <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHE2WXhqV29sdVBnQy1IN08xaVdHVVhla3h5bmdKb25qVU1UNEVxTHFvbWMtcjJlYk1EUkRpY19yUXN6WjJ5c3FDOEYyeFVaU1BiRnNRYkY5Z0YyV3RaMktkaFA5aFRBdUNrWDZ3NzZHQ1pLX2xWemVGTFdySVh0NENmNE1WQXptWnRwc05sSXlIZkI3bG9xSFp0dUl3YWNLOXIycldneU1iY0xYS0RCNWM2Z1JlUQ?oc=5" target="_blank" class="news-title">Nvidia Earnings Loom as Risk Factor for AI-Obsessed Stock Market - Bloomberg.com</a>
-              <div class="news-meta"><span class="news-source">Bloomberg.com</span><span class="news-date">Wed, 25 Feb 2026</span></div>
+              <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHE2WXhqV29sdVBnQy1IN08xaVdHVVhla3h5bmdKb25qVU1UNEVxTHFvbWMtcjJlYk1EUkRpY19yUXN6WjJ5c3FDOEYyeFVaU1BiRnNRYkY5Z0YyV3RaMktkaFA5aFRBdUNrWDZ3NzZHQ1pLX2xWemVGTFdySVh0NENmNE1WQXptWnRwc05sSXlIZkI3bG9xSFp0dUl3YWNLOXIycldneU1iY0xYS0RCNWM2Z1JlUQ?oc=5" target="_blank" class="news-title">Nvidia Earnings Loom as Risk Factor for AI-Obsessed Stock Market - Bloomberg</a>
+              <div class="news-meta"><span class="news-source">Bloomberg</span><span class="news-date">Wed, 25 Feb 2026</span></div>
+            </div>
+            <div class="news-card">
+              <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOcTFhQ25CUnJ0anoyQ202akFGUUtaWENjZk5ZVlVzSGFPSG1vUl9kOWNnQlRhOFlSemN0aldsMDF3YTYzdkJlOVRrLXU4VXBWckptWS03cmRXTmZEZmM3Rl9YZ3ZGUDJoME43cms1bXk4WnhqRGlZTXQzYzB0YVV5bHNrMjBOT2RvaHd4QWxwUEZyaTdwLUZVSi1VbGUtVjU2?oc=5" target="_blank" class="news-title">Dow Jones Futures Fall; Nvidia Wavers Despite Strong Earnings, Guidance - Investor&#x27;s Business Daily</a>
+              <div class="news-meta"><span class="news-source">Investor&#x27;s Business Daily</span><span class="news-date">Thu, 26 Feb 2026</span></div>
             </div>
         </div></div>
     </section>
@@ -1844,7 +1860,7 @@
               </div>
               <p class="excerpt">This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/Finanzen/comments/1rc5yyj)…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 5</span>
+                <span class="score" style="background:#e74c3c">▲ 6</span>
                 <span class="comments">💬 9 Kommentare</span>
               </div>
             </div>
@@ -1855,8 +1871,8 @@
               </div>
               <p class="excerpt">Wir sind beides Informatiker, nun 32/30 und nach dem Studium standen wir zusammen ziemlich bei 0, da ich 20k Schulden eingebracht hatte 😅 Heute haben wir nun die $1.5m USD im Depot geknackt.  2020 hab ich mal ein Sankey gemacht vom meinem ersten Job, damals zu €74k bei Amazon Berlin: https://www.red…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 255</span>
-                <span class="comments">💬 92 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 285</span>
+                <span class="comments">💬 110 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1866,8 +1882,8 @@
               </div>
               <p class="excerpt">Guten Morgen liebe Community,  dank der guten Entwicklung am Aktienmarkt habe ich soeben die 300k im Depot mit 32 geknackt. Es liegt nahezu alles im FTSE All World bei Trade Republic.  Ich arbeite seit meinem Abschluss bei einer Unternehmensberatung in München. …</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 415</span>
-                <span class="comments">💬 173 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 428</span>
+                <span class="comments">💬 178 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1877,19 +1893,8 @@
               </div>
               <p class="excerpt">Na da schau an: In den Niederlanden wird die geplante Steuer auf unrealisierte Kursgewinne (vorerst) auf Eis gelegt.   Da war der Widerstand wohl doch zu groß, gut so!👍🏼…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 304</span>
+                <span class="score" style="background:#f39c12">▲ 305</span>
                 <span class="comments">💬 37 Kommentare</span>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-header">
-                <a href="https://www.reddit.com/r/Finanzen/comments/1re58nr/ich_möchte_mal_ein_normales_sankey_sehen/" target="_blank" class="post-title">Ich möchte mal ein normales sankey sehen</a>
-                <span class="flair">Meme</span>
-              </div>
-              <p class="excerpt">600 € Miete: Sozialer Wohnungsbau oder sind schon früh eingezogen  3k € im Monat: sind bei Steuerklasse 1 65 k € brutto jährlich  250€ Lebensmittel: Veganer, Isst bei Mama oder kauft das minderwertigste bei Discounter …</p>
-              <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 4,527</span>
-                <span class="comments">💬 791 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1899,8 +1904,30 @@
               </div>
               <p class="excerpt">Nicht auszumalen, wenn Nvidia nicht geliefert ……</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 94</span>
-                <span class="comments">💬 28 Kommentare</span>
+                <span class="score" style="background:#e74c3c">▲ 99</span>
+                <span class="comments">💬 29 Kommentare</span>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <a href="https://www.reddit.com/r/Finanzen/comments/1re58nr/ich_möchte_mal_ein_normales_sankey_sehen/" target="_blank" class="post-title">Ich möchte mal ein normales sankey sehen</a>
+                <span class="flair">Meme</span>
+              </div>
+              <p class="excerpt">600 € Miete: Sozialer Wohnungsbau oder sind schon früh eingezogen  3k € im Monat: sind bei Steuerklasse 1 65 k € brutto jährlich  250€ Lebensmittel: Veganer, Isst bei Mama oder kauft das minderwertigste bei Discounter …</p>
+              <div class="post-meta">
+                <span class="score" style="background:#27ae60">▲ 4,532</span>
+                <span class="comments">💬 791 Kommentare</span>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <a href="https://www.reddit.com/r/Finanzen/comments/1rf4vmz/finanzamt_unterstützt_und_hilft/" target="_blank" class="post-title">Finanzamt unterstützt und hilft</a>
+                <span class="flair">Steuern</span>
+              </div>
+              <p class="excerpt">Muss hier mal die Lanze für die 3 MA aus den beiden Finanzämtern brechen, mit denen ich gerade privat zu tun habe.   Geht um Einkommensteuererklärung, Erbengemeinschaft, Immobilie i.V.m. Fußstapfen-Regelung usw.   Bei Anrufen gehen die MA ans Telefon, sind super unterstützend und hilfreich. Vermerke…</p>
+              <div class="post-meta">
+                <span class="score" style="background:#e74c3c">▲ 26</span>
+                <span class="comments">💬 9 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1921,7 +1948,7 @@
               </div>
               <p class="excerpt">Heute endlich die 20k geknackt …</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 425</span>
+                <span class="score" style="background:#f39c12">▲ 429</span>
                 <span class="comments">💬 46 Kommentare</span>
               </div>
             </div>
@@ -1932,8 +1959,8 @@
               </div>
               <p class="excerpt">&amp;gt;*Mit Blick auf regulatorische Veränderungen wird Smartbroker künftig keine Zahlungen mehr aus sogenannten Payment-for-Order-Flow-(PFOF)-Verträgen erhalten. Trotz des Wegfalls dieser Einnahmen wird SMARTBROKER+ seinen vollständigen Produktumfang weiterhin zu unveränderten Konditionen für den Endk…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 11</span>
-                <span class="comments">💬 2 Kommentare</span>
+                <span class="score" style="background:#e74c3c">▲ 13</span>
+                <span class="comments">💬 3 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1943,19 +1970,8 @@
               </div>
               <p class="excerpt">Leider kein Sankey, bitte entschuldigt.  Die Frage kam mir heute in den Kopf als meine Lebensmittel geliefert wurden. Bei der Bestellung konnte man vorab bereits Trinkgeld geben, hab ich tatsächlich gemacht.   Dann kam mir der Gedanke, dass es für die Menge an Tüten doch etwas wenig war, aber im End…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 149</span>
+                <span class="score" style="background:#f39c12">▲ 146</span>
                 <span class="comments">💬 127 Kommentare</span>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-header">
-                <a href="https://www.reddit.com/r/Finanzen/comments/1res9ye/trinkgeld_am_kartengerät_für_konzerttakeway_gastro/" target="_blank" class="post-title">Trinkgeld am Kartengerät für Konzert-/Takeway Gastro</a>
-                <span class="flair">Anderes</span>
-              </div>
-              <p class="excerpt">Ich muss sagen, ich bin ein großer Freund des Trinkgeldes. Es ist immer eine tolle Möglichkeit gute Service in jeglicher Form zu würdigen. Trinkgeld sorgt sowohl beim Trinkeldgeber, als auch beim -nehmer für gute Stimmung …unter einer Bedingung: Es ist an eine gewissen Zwanglosigkeit gekoppelt.  Sei…</p>
-              <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 35</span>
-                <span class="comments">💬 35 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1965,8 +1981,19 @@
               </div>
               <p class="excerpt">„Allerdings rechnet die Bundesbank damit, dass sich die Defizitquote bis 2027 auf viereinhalb Prozent erhöhen wird, weil der Staat schuldenfinanziert gewaltige Milliardensummen in Straßen, Schienen und Verteidigung stecken will.“  …wenn es am Ende nicht doch wieder für konsumtive Ausgaben zweckentfr…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 375</span>
+                <span class="score" style="background:#f39c12">▲ 381</span>
                 <span class="comments">💬 242 Kommentare</span>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <a href="https://www.reddit.com/r/Finanzen/comments/1res9ye/trinkgeld_am_kartengerät_für_konzerttakeway_gastro/" target="_blank" class="post-title">Trinkgeld am Kartengerät für Konzert-/Takeway Gastro</a>
+                <span class="flair">Anderes</span>
+              </div>
+              <p class="excerpt">Ich muss sagen, ich bin ein großer Freund des Trinkgeldes. Es ist immer eine tolle Möglichkeit gute Service in jeglicher Form zu würdigen. Trinkgeld sorgt sowohl beim Trinkeldgeber, als auch beim -nehmer für gute Stimmung …unter einer Bedingung: Es ist an eine gewissen Zwanglosigkeit gekoppelt.  Sei…</p>
+              <div class="post-meta">
+                <span class="score" style="background:#e74c3c">▲ 37</span>
+                <span class="comments">💬 37 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -1976,30 +2003,8 @@
               </div>
               <p class="excerpt">Dieser Sub verkommt mal wieder zu einer Sankey-Müllhalde. Ich weiß, dass es vor einiger Zeit ähnlich war und Sankeys dann verboten wurden. Wieso sind sie mittlerweile wieder erlaubt?…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 309</span>
-                <span class="comments">💬 113 Kommentare</span>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-header">
-                <a href="https://www.reddit.com/r/Finanzen/comments/1rf4vmz/finanzamt_unterstützt_und_hilft/" target="_blank" class="post-title">Finanzamt unterstützt und hilft</a>
-                <span class="flair">Steuern</span>
-              </div>
-              <p class="excerpt">Muss hier mal die Lanze für die 3 MA aus den beiden Finanzämtern brechen, mit denen ich gerade privat zu tun habe.   Geht um Einkommensteuererklärung, Erbengemeinschaft, Immobilie i.V.m. Fußstapfen-Regelung usw.   Bei Anrufen gehen die MA ans Telefon, sind super unterstützend und hilfreich. Vermerke…</p>
-              <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 2</span>
-                <span class="comments">💬 0 Kommentare</span>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-header">
-                <a href="https://www.reddit.com/r/Finanzen/comments/1rf4ldn/seit_einem_halben_jahr_wird_mein_tr_sparplan/" target="_blank" class="post-title">Seit einem halben Jahr wird mein TR Sparplan nicht ausgeführt</a>
-                <span class="flair">Investieren - ETF</span>
-              </div>
-              <p class="excerpt">Ich bespare seit ca einem Jahr den FTSE All-World und habe einen Sparplan eingerichtet. Das hat am Anfang auch immer super geklappt, aber mittlerweile bekomm ich jeden Monat eine Benachrichtigung dass mein Sparplan nicht ausgeführt werden kann. Am Anfang dachte ich, es läge daran dass TR an einem Wo…</p>
-              <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 2</span>
-                <span class="comments">💬 3 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 312</span>
+                <span class="comments">💬 114 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2009,8 +2014,19 @@
               </div>
               <p class="excerpt">Ich habe vor Monaten bei Trader Republik einen Sparplan eingerichtet. Einmal wurde er ausgeführt und ich habe ihn gelöscht.  Seitdem ziehen sie mir jeden Monat die Summe weiterhin vom Konto ab. In der App wird mir angezeigt, dass ich keine Sparpläne habe. Jeden Monat storniere ich die Lastschrift, a…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 13</span>
+                <span class="score" style="background:#e74c3c">▲ 12</span>
                 <span class="comments">💬 6 Kommentare</span>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <a href="https://www.reddit.com/r/Finanzen/comments/1rf4ldn/seit_einem_halben_jahr_wird_mein_tr_sparplan/" target="_blank" class="post-title">Seit einem halben Jahr wird mein TR Sparplan nicht ausgeführt</a>
+                <span class="flair">Investieren - ETF</span>
+              </div>
+              <p class="excerpt">Ich bespare seit ca einem Jahr den FTSE All-World und habe einen Sparplan eingerichtet. Das hat am Anfang auch immer super geklappt, aber mittlerweile bekomm ich jeden Monat eine Benachrichtigung dass mein Sparplan nicht ausgeführt werden kann. Am Anfang dachte ich, es läge daran dass TR an einem Wo…</p>
+              <div class="post-meta">
+                <span class="score" style="background:#e74c3c">▲ 1</span>
+                <span class="comments">💬 4 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2020,7 +2036,7 @@
               </div>
               <p class="excerpt">Hallo Schwarmintelligenz,  ich investiere 1k/Monat in den heiligen Gral und das Depot ist nun schon groß genug um mich im Alter gut zu versorgen bzw. Fire in 20 Jahren zu ermöglichen wenn ich die Sparrate beibehalte (27 Jahre alt).  Nun hätte ich aber noch etwas Luft monatlich und frage mich, ob es …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 1</span>
+                <span class="score" style="background:#e74c3c">▲ 2</span>
                 <span class="comments">💬 37 Kommentare</span>
               </div>
             </div>
@@ -2031,8 +2047,8 @@
               </div>
               <p class="excerpt">Hey ihr Carbonara-Schnabulierer,  Ich habe mal eine ernst gemeinte Frage:   Man liest ja immer wieder und öfter in den Kommentaren: „wow, die hohe summe im etf bei der Handelsrepublik? Der hat Eier“ und Vergleichbares.  Worin genau liegt das Problem, wenn man langfristig anlegt und das in einem etf …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 0</span>
-                <span class="comments">💬 19 Kommentare</span>
+                <span class="score" style="background:#e74c3c">▲ 1</span>
+                <span class="comments">💬 20 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2042,7 +2058,7 @@
               </div>
               <p class="excerpt">Mal eine &quot;Normale&quot; Gehalt.  Meine Partnerin studiert derzeit ihren Master und arbeitet auch noch einige Stunden pro Woche. Das Geld, das sie verdient, ist in Sankeys nicht enthalten, weil es nur für ihren eigenen Bedarf ist. Da wir nicht verheiratet sind, zahlt sie ca. 150 Euro Krankenversicherung, …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 51</span>
+                <span class="score" style="background:#e74c3c">▲ 53</span>
                 <span class="comments">💬 39 Kommentare</span>
               </div>
             </div>
@@ -2053,7 +2069,7 @@
               </div>
               <p class="excerpt">Hat von euch schon mal auf SC ein Kredit genommen?   Wie sind die Ehrfahrungen und habt ihr den Kredit dann auch in ETFs investiert?…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 9</span>
+                <span class="score" style="background:#e74c3c">▲ 8</span>
                 <span class="comments">💬 41 Kommentare</span>
               </div>
             </div>
@@ -2081,24 +2097,24 @@
             </div>
             <div class="post">
               <div class="post-header">
-                <a href="https://www.reddit.com/r/Finanzen/comments/1rentap/geschenk_zum_18_geburtstag_dividendenaktie_um_etf/" target="_blank" class="post-title">Geschenk zum 18. Geburtstag: Dividendenaktie um ETF zu besparen?</a>
-                <span class="flair">Anderes</span>
-              </div>
-              <p class="excerpt">Meine Nichte wird im Oktober 18 Jahre alt und ich möchte ihr ein Geschenk in Höhe von etwa 300 Euro geben. Nun kam ich auf eine Idee, zu der ich gerne Eure Meinung hören möchte.  Meine Nichte kommt aus keinem ökonomisch starken Haushalt und finanzielle Bildung ist dort auch kein Thema. Deshalb mocht…</p>
-              <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 5</span>
-                <span class="comments">💬 33 Kommentare</span>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-header">
                 <a href="https://www.reddit.com/r/Finanzen/comments/1rdi729/m40_anwalt_großstadt/" target="_blank" class="post-title">M40 | Anwalt | Großstadt</a>
                 <span class="flair">Budget &amp;amp; Planung</span>
               </div>
               <p class="excerpt">Hallo Zusammen, ich habe nun auch mal ein Sankey erstellt.  Das überwiesene Gehalt (angestellter Anwalt) beinhaltet noch den AG-Zuschuss zu Rentenversicherung (ich zahle in ein Vorsorgewerk statt in die DRV ein) und Kranken- und Pflegeversicherung, da ich privat versichert bin. In meinem PKV-Tarif b…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 788</span>
+                <span class="score" style="background:#f39c12">▲ 792</span>
                 <span class="comments">💬 398 Kommentare</span>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <a href="https://www.reddit.com/r/Finanzen/comments/1rehkvp/haben_bavs_immer_so_absurde_kosten_ist_das_normal/" target="_blank" class="post-title">Haben BAVs immer so absurde Kosten, ist das normal?</a>
+                <span class="flair">Altersvorsorge</span>
+              </div>
+              <p class="excerpt">Ein Kumpel bei einer sozialen Einrichtung hat sich dieses Ding als BAV andrehen lassen.  &amp;gt;Daneben werden übrige Kosten (z.B. für die Verwaltung und Betreuung Ihres Ver-  &amp;gt;trages während der Vertragslaufzeit) berechnet, die ebenfalls bei der Kalkulation der  &amp;gt;Beiträge und Leistungen bereits …</p>
+              <div class="post-meta">
+                <span class="score" style="background:#e74c3c">▲ 6</span>
+                <span class="comments">💬 15 Kommentare</span>
               </div>
             </div>
         </section>
@@ -2112,7 +2128,7 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 244</span>
+                <span class="score" style="background:#f39c12">▲ 246</span>
                 <span class="comments">💬 1,487 Kommentare</span>
               </div>
             </div>
@@ -2123,8 +2139,8 @@
               </div>
               <p class="excerpt">This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/wallstreetbets/comments/1repn52)…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 226</span>
-                <span class="comments">💬 10,578 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 225</span>
+                <span class="comments">💬 10,600 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2134,7 +2150,7 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 16,039</span>
+                <span class="score" style="background:#27ae60">▲ 16,187</span>
                 <span class="comments">💬 382 Kommentare</span>
               </div>
             </div>
@@ -2145,8 +2161,8 @@
               </div>
               <p class="excerpt">Check my previous post for verification. I have a total of 71k shares of NVDA, but only 43.5k on robinhood.…</p>
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 8,816</span>
-                <span class="comments">💬 877 Kommentare</span>
+                <span class="score" style="background:#27ae60">▲ 8,849</span>
+                <span class="comments">💬 881 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2156,7 +2172,7 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 1,929</span>
+                <span class="score" style="background:#27ae60">▲ 1,935</span>
                 <span class="comments">💬 272 Kommentare</span>
               </div>
             </div>
@@ -2167,8 +2183,8 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 1,226</span>
-                <span class="comments">💬 130 Kommentare</span>
+                <span class="score" style="background:#27ae60">▲ 1,245</span>
+                <span class="comments">💬 131 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2178,8 +2194,8 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 132</span>
-                <span class="comments">💬 40 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 140</span>
+                <span class="comments">💬 45 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2189,8 +2205,8 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 624</span>
-                <span class="comments">💬 192 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 627</span>
+                <span class="comments">💬 193 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2200,7 +2216,7 @@
               </div>
               <p class="excerpt">Any chance for these to recover?😩…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 192</span>
+                <span class="score" style="background:#f39c12">▲ 198</span>
                 <span class="comments">💬 103 Kommentare</span>
               </div>
             </div>
@@ -2211,7 +2227,7 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 3,235</span>
+                <span class="score" style="background:#27ae60">▲ 3,240</span>
                 <span class="comments">💬 77 Kommentare</span>
               </div>
             </div>
@@ -2222,7 +2238,7 @@
               </div>
               <p class="excerpt">Expectations for revenue this quarter is 65-66billy. I think they easily eclipse that as Jensen tends to guide conservatively. Consensus guide for next quarter is 75 Billy. I actually think that number will be closer to 80. Just obscene amounts of money an even more crazy are their margins.   You ha…</p>
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 2,009</span>
+                <span class="score" style="background:#27ae60">▲ 2,004</span>
                 <span class="comments">💬 208 Kommentare</span>
               </div>
             </div>
@@ -2233,8 +2249,8 @@
               </div>
               <p class="excerpt">aftermath …</p>
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 1,072</span>
-                <span class="comments">💬 647 Kommentare</span>
+                <span class="score" style="background:#27ae60">▲ 1,077</span>
+                <span class="comments">💬 649 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2244,7 +2260,7 @@
               </div>
               <p class="excerpt">\*\*REPOST\*\*  Reposting since mods removed the first. Adding more details and including realized losses.   Last year I lost 70% of my account sports betting. For me, the next logical choice was to quote sports betting and YOLO the rest into 0DTE option plays. To prep I downloaded Reddit and got on…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 139</span>
+                <span class="score" style="background:#f39c12">▲ 138</span>
                 <span class="comments">💬 114 Kommentare</span>
               </div>
             </div>
@@ -2255,8 +2271,8 @@
               </div>
               <p class="excerpt">Lol that price action to keep Nvidia from breaking out is crazy, even after record earnings beat. Odds are soooo stacked against commoners in this casino lol. MMs gods strike again. …</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 126</span>
-                <span class="comments">💬 74 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 137</span>
+                <span class="comments">💬 75 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2266,8 +2282,8 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 104</span>
-                <span class="comments">💬 130 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 105</span>
+                <span class="comments">💬 131 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2277,7 +2293,18 @@
               </div>
               <p class="excerpt">tldr: Japan’s Nikkei 225 hit another record Thursday fueled by “Takaichi trade,” while the broader Asia-Pacific markets mostly climbed after tech stocks powered a Wall Street rally overnight.…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 48</span>
+                <span class="score" style="background:#e74c3c">▲ 49</span>
+                <span class="comments">💬 6 Kommentare</span>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <a href="https://www.reddit.com/r/wallstreetbets/comments/1rf087c/alright_which_one_of_you_sick_rtards_keeps/" target="_blank" class="post-title">Alright which one of you sick Rtards keeps shorting Nvidia every time we hit a high note</a>
+                <span class="flair">Gain</span>
+              </div>
+              <p class="excerpt">Oh shit nvm it’s me! Carry on. …</p>
+              <div class="post-meta">
+                <span class="score" style="background:#e74c3c">▲ 37</span>
                 <span class="comments">💬 5 Kommentare</span>
               </div>
             </div>
@@ -2288,19 +2315,8 @@
               </div>
               <p class="excerpt">I have a sell order for break even. hopefully I don&#x27;t fuck up my life…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 323</span>
+                <span class="score" style="background:#f39c12">▲ 334</span>
                 <span class="comments">💬 253 Kommentare</span>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-header">
-                <a href="https://www.reddit.com/r/wallstreetbets/comments/1rf087c/alright_which_one_of_you_sick_rtards_keeps/" target="_blank" class="post-title">Alright which one of you sick Rtards keeps shorting Nvidia every time we hit a high note</a>
-                <span class="flair">Gain</span>
-              </div>
-              <p class="excerpt">Oh shit nvm it’s me! Carry on. …</p>
-              <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 36</span>
-                <span class="comments">💬 5 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2310,7 +2326,7 @@
               </div>
               <p class="excerpt">I bought in 2014, and I’ve sold a decent amount of the years. There are probably better investments I can make with this $10k at this point. How should I decide when/if to sell TSLA, realize the gains, and re-invest?…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 288</span>
+                <span class="score" style="background:#f39c12">▲ 284</span>
                 <span class="comments">💬 49 Kommentare</span>
               </div>
             </div>
@@ -2322,7 +2338,7 @@
               
               <div class="post-meta">
                 <span class="score" style="background:#e74c3c">▲ 25</span>
-                <span class="comments">💬 38 Kommentare</span>
+                <span class="comments">💬 40 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2332,7 +2348,7 @@
               </div>
               <p class="excerpt">https://preview.redd.it/l2b1lnbitolg1.png?width=672&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e484b695c5ffecfce59e85e040c6bbf429bb085a  https://preview.redd.it/z4fzgp8jtolg1.png?width=1270&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=604f50f94160e62e6ce800a26004c125b2f2ad8e  is it over guys? is this the end?  UPDATE…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 144</span>
+                <span class="score" style="background:#f39c12">▲ 141</span>
                 <span class="comments">💬 43 Kommentare</span>
               </div>
             </div>
@@ -2343,8 +2359,8 @@
               </div>
               <p class="excerpt">How f’ed am I? RKT earnings today.…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 30</span>
-                <span class="comments">💬 46 Kommentare</span>
+                <span class="score" style="background:#e74c3c">▲ 31</span>
+                <span class="comments">💬 47 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2354,7 +2370,7 @@
               </div>
               
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 1,645</span>
+                <span class="score" style="background:#27ae60">▲ 1,649</span>
                 <span class="comments">💬 322 Kommentare</span>
               </div>
             </div>
@@ -2376,7 +2392,7 @@
               </div>
               <p class="excerpt">Warren Buffet might advise against this but we ball…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 96</span>
+                <span class="score" style="background:#e74c3c">▲ 98</span>
                 <span class="comments">💬 103 Kommentare</span>
               </div>
             </div>
@@ -2391,8 +2407,8 @@
               </div>
               <p class="excerpt">Finance Minister Heinen says the newly passed Box 3 tax reform will be revised and likely scrapped due to widespread backlash, especially over taxing unrealized gains. The law may be rewritten before Senate review.   https://www.telegraaf.nl/politiek/kabinet-grijpt-in-en-wil-nieuwe-box-3-na-golf-aan…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 323</span>
-                <span class="comments">💬 76 Kommentare</span>
+                <span class="score" style="background:#f39c12">▲ 325</span>
+                <span class="comments">💬 77 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2402,7 +2418,7 @@
               </div>
               <p class="excerpt">I had always been sceptical of investing in gold, as unlike stocks and bonds it doesn&#x27;t generate anything by itself.  But after running many simulations with real past data, I&#x27;ve found that having a 10% gold allocation is a good strategy to increase real returns and reduce maximum drawdown in any po…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 16</span>
+                <span class="score" style="background:#e74c3c">▲ 14</span>
                 <span class="comments">💬 34 Kommentare</span>
               </div>
             </div>
@@ -2446,7 +2462,7 @@
               </div>
               <p class="excerpt">hey everyone, looking for some perspective here cuz im kinda stuck in analysis paralysis 😅 ive been doing the usual sensible stuff so far like cash savings, index funds, pensions, nothing wild. lately tho ive been thinking more about diversification outside pure equities, especially with how jumpy m…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 3</span>
+                <span class="score" style="background:#e74c3c">▲ 2</span>
                 <span class="comments">💬 9 Kommentare</span>
               </div>
             </div>
@@ -2479,7 +2495,7 @@
               </div>
               <p class="excerpt">I handle operations for a small EU-based startup and we’re reviewing our banking setup before things get more complex.  I’m trying to understand how the Vivid Money business account performs in everyday use rather than in theory.  Specifically: how it works for paying tools, subscriptions, and contr…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 30</span>
+                <span class="score" style="background:#e74c3c">▲ 31</span>
                 <span class="comments">💬 10 Kommentare</span>
               </div>
             </div>
@@ -2490,7 +2506,7 @@
               </div>
               <p class="excerpt">Is there any good website which let&#x27;s me compare multiple portfolios? I know about [https://curvo.eu/backtest/en](https://curvo.eu/backtest/en) but it doesn&#x27;t have Avantis ETFs. Any other tools for free?…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 9</span>
+                <span class="score" style="background:#e74c3c">▲ 10</span>
                 <span class="comments">💬 12 Kommentare</span>
               </div>
             </div>
@@ -2501,7 +2517,7 @@
               </div>
               <p class="excerpt">Hey everyone, I am a 21yo student based in the Netherlands, and would like to start investing. As I already had a ING account, I decided to set up an ING Selbst op de Beurs account. After reading the Little Book by Jack Bogle and reading some more about ETFs, I am thinking of splitting my money in t…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 34</span>
+                <span class="score" style="background:#e74c3c">▲ 36</span>
                 <span class="comments">💬 20 Kommentare</span>
               </div>
             </div>
@@ -2523,7 +2539,7 @@
               </div>
               <p class="excerpt">Italian citizen here. I’m looking for life insurance as I live in Estonia and have a young family. I’m not sure where I’ll move to though. Anyone have this problem? …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 9</span>
+                <span class="score" style="background:#e74c3c">▲ 6</span>
                 <span class="comments">💬 3 Kommentare</span>
               </div>
             </div>
@@ -2534,7 +2550,7 @@
               </div>
               <p class="excerpt">Hi guys,      I need some advice here.      Long story short my mom got around 50k EUR cash from an heritage 2 years ago, and she doesn&#x27;t know what to do with it.      The thing is she is renting her house so my opinion is for her to get her house. My dad passed away few years ago and my mom got her…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 28</span>
+                <span class="score" style="background:#e74c3c">▲ 25</span>
                 <span class="comments">💬 65 Kommentare</span>
               </div>
             </div>
@@ -2578,7 +2594,7 @@
               </div>
               <p class="excerpt">Hej, would appreciate some advice if I am missing something glaringly obvious. As a foreword I am not trying to find the &quot;best&quot; portfolio allocation that is statistically going to bring the highest return. I would have to go with factor investing then I think.   I have struggled a lot to find an all…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 12</span>
+                <span class="score" style="background:#e74c3c">▲ 13</span>
                 <span class="comments">💬 14 Kommentare</span>
               </div>
             </div>
@@ -2589,7 +2605,7 @@
               </div>
               <p class="excerpt">Hey all, German resident. I have recently started a brokerage account with ETF savings plan with TR. While the app is intuitive and straightforward, am worried about long term safety given the terrible customer service of TR. I want to setup an automatic savings plan of 4-5 ETFs at about 500 Eur/mon…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 21</span>
+                <span class="score" style="background:#e74c3c">▲ 20</span>
                 <span class="comments">💬 16 Kommentare</span>
               </div>
             </div>
@@ -2600,7 +2616,7 @@
               </div>
               <p class="excerpt">I going to buy globally diversified ETF, and I can&#x27;t decide which one should I choose. My goal is simplicity, stable ETF, a covering large and mid caps in developed countries and in China and Taiwan.  How much should I care about TER when investing long-term?  I am considering thesee all world ETFs:…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 12</span>
+                <span class="score" style="background:#e74c3c">▲ 11</span>
                 <span class="comments">💬 11 Kommentare</span>
               </div>
             </div>
@@ -2622,7 +2638,7 @@
               </div>
               <p class="excerpt">I&#x27;m honestly just fed up with the back-and-forth of business banking in Europe. We&#x27;re working with people in three different countries right now now, and every time someone needs to buy a simple SaaS subscription or some office stuff, it&#x27;s a whole production.   I know virtual cards are a thing, but …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 9</span>
+                <span class="score" style="background:#e74c3c">▲ 10</span>
                 <span class="comments">💬 3 Kommentare</span>
               </div>
             </div>
@@ -2633,7 +2649,7 @@
               </div>
               <p class="excerpt"> * XEQ2 - LU3116008346 - Xtrackers Diversified Portfolio 20% Equity UCITS ETF 1C  * XEQ4 - LU3116008429 - Xtrackers Diversified Portfolio 40% Equity UCITS ETF 1C  * XEQ6 - LU3116008692 - Xtrackers Diversified Portfolio 60% Equity UCITS ETF 1C  * XEQ8 - LU3116008775 - Xtrackers Diversified Portfolio …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 44</span>
+                <span class="score" style="background:#e74c3c">▲ 42</span>
                 <span class="comments">💬 24 Kommentare</span>
               </div>
             </div>
@@ -2763,7 +2779,7 @@
               <p class="excerpt">Have a general question? Want to offer some commentary on markets? Maybe you would just like to throw out a neat fact that doesn&#x27;t warrant a self post? Feel free to post here!  Please consider consulting our FAQ first - [https://www.reddit.com/r/investing/wiki/faq](https://www.reddit.com/r/investing…</p>
               <div class="post-meta">
                 <span class="score" style="background:#e74c3c">▲ 4</span>
-                <span class="comments">💬 11 Kommentare</span>
+                <span class="comments">💬 12 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2773,7 +2789,7 @@
               </div>
               <p class="excerpt">For those new to Reddit and to investing and trading - please be aware that social media platform like Reddit, Discord, etc. can be a vector for scams and fraud.   Offers to DM should be viewed as suspicious.   Social media platforms continue to be a common method to recruit new investors to scams. …</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 42</span>
+                <span class="score" style="background:#e74c3c">▲ 44</span>
                 <span class="comments">💬 12 Kommentare</span>
               </div>
             </div>
@@ -2784,8 +2800,8 @@
               </div>
               <p class="excerpt">I&#x27;m currently outside of the USA and it&#x27;s amazing how much financial news is still told from within a US perspective. Here&#x27;s something I just noticed:  * S&amp;amp;P up about 15% since a year ago * (but as we already know, this is mainly due to a few big tech companies) * USDEUR and DXY (USD vs basket) …</p>
               <div class="post-meta">
-                <span class="score" style="background:#27ae60">▲ 1,029</span>
-                <span class="comments">💬 622 Kommentare</span>
+                <span class="score" style="background:#27ae60">▲ 1,026</span>
+                <span class="comments">💬 623 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2795,7 +2811,7 @@
               </div>
               <p class="excerpt">I just spent 2 hours with my parents financial advisor and he mentioned something that&#x27;s stuck with me.  My parents are both in their mid 80&#x27;s. My mom wants very low risk investments, since they have enough money to cover their expenses for 20 years. But, when I asked what the FA would do with the m…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 28</span>
+                <span class="score" style="background:#e74c3c">▲ 32</span>
                 <span class="comments">💬 107 Kommentare</span>
               </div>
             </div>
@@ -2806,7 +2822,7 @@
               </div>
               <p class="excerpt">Most of the post-earnings coverage is focused on the revenue beat and $78B Q1 guidance. What&#x27;s getting missed: that $78B assumes zero China Data Center revenue.  CFO Colette Kress said explicitly on the call tonight that while H200 chips were approved for sale to China by the US government, Nvidia h…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 22</span>
+                <span class="score" style="background:#e74c3c">▲ 19</span>
                 <span class="comments">💬 17 Kommentare</span>
               </div>
             </div>
@@ -2828,7 +2844,7 @@
               </div>
               <p class="excerpt">Dell&#x27;s AI server backlog hit $18.4B heading into tomorrow with $30B in year-to-date orders. Demand isn&#x27;t the question.  What&#x27;s worth watching is who&#x27;s actually buying. The early AI server wave was dominated by hyperscalers. Dell&#x27;s last earnings call flagged a broadening mix toward enterprise, neoclo…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 6</span>
+                <span class="score" style="background:#e74c3c">▲ 5</span>
                 <span class="comments">💬 2 Kommentare</span>
               </div>
             </div>
@@ -2839,7 +2855,7 @@
               </div>
               <p class="excerpt">Am I the only one seeing a pattern here? Workday just dropped their Q4 2026 earnings and honestly, the numbers weren&#x27;t even bad. They beat EPS ($2.47 vs $2.32) and revenue was up 14.5% YoY. But the stock still tanked 8% after-hours and is down almost 40% YTD. It feels like the &quot;SaaSpocalypse&quot; narrat…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 34</span>
+                <span class="score" style="background:#e74c3c">▲ 36</span>
                 <span class="comments">💬 48 Kommentare</span>
               </div>
             </div>
@@ -2850,7 +2866,7 @@
               </div>
               <p class="excerpt">I know that its pocket change for most ppl, but coming from a family that has had nights without supper getting to 10k feels like climbing the k2!  debts are in check, emergency fund is ok, i can make investments reliably every month into a basket that outputs roughly 0,5%(monthly) above inflation a…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 524</span>
+                <span class="score" style="background:#f39c12">▲ 520</span>
                 <span class="comments">💬 45 Kommentare</span>
               </div>
             </div>
@@ -2862,7 +2878,7 @@
               <p class="excerpt">CoreWeave already has $18.4B in debt at about 11%. That’s roughly $2B a year in interest. Just interest. Add another $8.5B even if they get a better 8 to 9% rate that’s another $700M a year. Now you’re at $2.7–$2.8B in annual interest before paying back a dollar of principal.  Then look at the busin…</p>
               <div class="post-meta">
                 <span class="score" style="background:#e74c3c">▲ 0</span>
-                <span class="comments">💬 7 Kommentare</span>
+                <span class="comments">💬 9 Kommentare</span>
               </div>
             </div>
             <div class="post">
@@ -2883,7 +2899,7 @@
               </div>
               <p class="excerpt">First off I want to preface that I know no one can see into the future but I have a few questions I want to ask to hear people’s opinions:  1. Will GEV keep ripping this year?  2. Are the consumer staple gains done for a while?  3. Is market volatility going up or down?  4. Is tech still as overvalu…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 4</span>
+                <span class="score" style="background:#e74c3c">▲ 2</span>
                 <span class="comments">💬 12 Kommentare</span>
               </div>
             </div>
@@ -2894,7 +2910,7 @@
               </div>
               <p class="excerpt">27 M. Late here and freshly starting out, exploring options beyond a HYSA. Aware that Fidelity’s money market is around 3.3% APY, Vanguard’s is similar, and SGOV is roughly 3.5% APY right now. Keeping an eye on solid alternatives and comparable rates as I get started.…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 2</span>
+                <span class="score" style="background:#e74c3c">▲ 1</span>
                 <span class="comments">💬 17 Kommentare</span>
               </div>
             </div>
@@ -2905,7 +2921,7 @@
               </div>
               <p class="excerpt">It’s pretty trendy of my portfolio to have a few great days and then follow up with a day that isn’t so good. I do understand the “time in beats timing” thing but I feel that kinda refers to people who already have their lump sum. I have recurring investments on based of my pay schedule and it almos…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 8</span>
+                <span class="score" style="background:#e74c3c">▲ 12</span>
                 <span class="comments">💬 35 Kommentare</span>
               </div>
             </div>
@@ -2916,7 +2932,7 @@
               </div>
               <p class="excerpt">so scotus killed the old tariffs but the admin just used section 122 to slap a 10% duty back on everything for the next 150 days lol. it feels like we’re just kicking the can down the road while prices at walmart and amazon stay high.  i’ve been looking at the inventory turns in the latest 10-Ks but…</p>
               <div class="post-meta">
-                <span class="score" style="background:#f39c12">▲ 130</span>
+                <span class="score" style="background:#f39c12">▲ 128</span>
                 <span class="comments">💬 53 Kommentare</span>
               </div>
             </div>
@@ -2927,7 +2943,7 @@
               </div>
               <p class="excerpt">I want to start off by saying this isn’t financial advice and just my opinion.  Let us dissect this recent earnings and look more critically, I don’t want retail left holding the bag.  Ionq is trading at a price to sales ratio (P/S) of 83.5 given its 2026 sales. Let’s put this into perspective and c…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 3</span>
+                <span class="score" style="background:#e74c3c">▲ 1</span>
                 <span class="comments">💬 8 Kommentare</span>
               </div>
             </div>
@@ -2949,7 +2965,7 @@
               </div>
               <p class="excerpt">I&#x27;m in my mid-30s and my portfolio is pretty tech-heavy (GOOG, MSFT. META). I&#x27;m fine with volatility, but I keep wondering if this level of concentration is smart long-term or if I should trim and add more broad EFTs.  To balance things out, I&#x27;ve experimented with platforms that give exposure outsid…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 5</span>
+                <span class="score" style="background:#e74c3c">▲ 4</span>
                 <span class="comments">💬 14 Kommentare</span>
               </div>
             </div>
@@ -2960,7 +2976,7 @@
               </div>
               <p class="excerpt">I’m allocating capital across a TFSA, FHSA, and RRSP all held in a self-trading app (my bank). I want honest comparisons between this setup and using Wealthsimple. Performance, fees, ease of use, and tax implications matter.  I’m focused on medium to long term trading and want to hear what instrumen…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 3</span>
+                <span class="score" style="background:#e74c3c">▲ 4</span>
                 <span class="comments">💬 3 Kommentare</span>
               </div>
             </div>
@@ -2971,7 +2987,7 @@
               </div>
               <p class="excerpt">Our family investment advisor that we have had for 25 years just left one big firm to go to another (e.g., from J.P. Morgan to Merrill Lynch or, say, Goldman Sachs to Morgan Stanley). She has done this before. We have no problem with that. The firm that she left had a new team reach out to us to try…</p>
               <div class="post-meta">
-                <span class="score" style="background:#e74c3c">▲ 71</span>
+                <span class="score" style="background:#e74c3c">▲ 73</span>
                 <span class="comments">💬 115 Kommentare</span>
               </div>
             </div>
@@ -3042,7 +3058,7 @@ window.__TODAY      = "2026-02-26";
 window.__MAX_SEL    = 3;
 window.__INV_EACH   = 33.33;
 window.__CHK_DAYS   = 28;
-window.__TODAY_RECS = [{"ticker": "META", "name": "Meta Platforms", "price": 653.69, "bewertung": 8, "category": "long"}, {"ticker": "GOOG", "name": "Alphabet", "price": 313.03, "bewertung": 8, "category": "long"}, {"ticker": "AMZN", "name": "Amazon", "price": 210.64, "bewertung": 8, "category": "long"}, {"ticker": "LULU", "name": "Lululemon Athletica", "price": 182.55, "bewertung": 7, "category": "long"}, {"ticker": "UBER", "name": "Uber Technologies", "price": 72.83, "bewertung": 7, "category": "long"}, {"ticker": "NFLX", "name": "Netflix", "price": 82.7, "bewertung": 7, "category": "long"}, {"ticker": "LYFT", "name": "LYFT Inc.", "price": 13.4, "bewertung": 7, "category": "gem"}, {"ticker": "CALM", "name": "Cal-Maine Foods", "price": 84.43, "bewertung": 7, "category": "gem"}];
+window.__TODAY_RECS = [{"ticker": "META", "name": "Meta Platforms", "price": 653.69, "bewertung": 7, "category": "long"}, {"ticker": "GOOG", "name": "Alphabet Inc.", "price": 313.03, "bewertung": 7, "category": "long"}, {"ticker": "AMZN", "name": "Amazon.com", "price": 210.64, "bewertung": 7, "category": "long"}, {"ticker": "UBER", "name": "Uber Technologies", "price": 72.83, "bewertung": 7, "category": "long"}, {"ticker": "CALM", "name": "Cal-Maine Foods", "price": 84.43, "bewertung": 7, "category": "gem"}];
 window.__DEPOT      = {"positions": [{"date": "2026-02-23", "name": "Meta Platforms", "ticker": "META", "buy_price": 655.66, "shares": 0.050834, "invested": 33.33}, {"date": "2026-02-23", "name": "Amazon.com", "ticker": "AMZN", "buy_price": 210.11, "shares": 0.158631, "invested": 33.33}, {"date": "2026-02-23", "name": "Alphabet Inc.", "ticker": "GOOG", "buy_price": 314.9, "shares": 0.105843, "invested": 33.33}]};
 window.__BT         = {"entries": [{"id": "2026-02-23-META-long", "date": "2026-02-23", "ticker": "META", "name": "Meta Platforms", "recommendation": "Kaufen", "category": "long", "price_at_recommendation": 655.66, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-GOOG-long", "date": "2026-02-23", "ticker": "GOOG", "name": "Alphabet Inc.", "recommendation": "Kaufen", "category": "long", "price_at_recommendation": 314.9, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-AMZN-long", "date": "2026-02-23", "ticker": "AMZN", "name": "Amazon.com", "recommendation": "Kaufen", "category": "long", "price_at_recommendation": 210.11, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-UBER-long", "date": "2026-02-23", "ticker": "UBER", "name": "Uber Technologies", "recommendation": "Kaufen", "category": "long", "price_at_recommendation": 73.86, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-LULU-long", "date": "2026-02-23", "ticker": "LULU", "name": "Lululemon Athletica", "recommendation": "Kaufen", "category": "long", "price_at_recommendation": 187.3, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-LYFT-gem", "date": "2026-02-23", "ticker": "LYFT", "name": "Lyft Inc.", "recommendation": "Kaufen", "category": "gem", "price_at_recommendation": 13.95, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-ZIM-gem", "date": "2026-02-23", "ticker": "ZIM", "name": "ZIM Integrated Shipping", "recommendation": "Abwarten", "category": "gem", "price_at_recommendation": 29.27, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-CALM-gem", "date": "2026-02-23", "ticker": "CALM", "name": "Cal-Maine Foods", "recommendation": "Kaufen", "category": "gem", "price_at_recommendation": 83.81, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-TSLA-short", "date": "2026-02-23", "ticker": "TSLA", "name": "Tesla Inc.", "recommendation": "Verkaufen", "category": "short", "price_at_recommendation": 411.82, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-NVDA-short", "date": "2026-02-23", "ticker": "NVDA", "name": "NVIDIA Corporation", "recommendation": "Verkaufen", "category": "short", "price_at_recommendation": 189.82, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}, {"id": "2026-02-23-PLTR-short", "date": "2026-02-23", "ticker": "PLTR", "name": "Palantir Technologies", "recommendation": "Verkaufen", "category": "short", "price_at_recommendation": 135.24, "check_date": "2026-03-23", "price_at_check": null, "result": null, "checked": false}]};
 </script>
